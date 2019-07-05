@@ -3,8 +3,8 @@
 <summary>
   Python基础
 </summary>
-  <pre><code>
+  <pre>
   1.输入输出
-  </code></pre>
+  </pre>
 </details>
 
