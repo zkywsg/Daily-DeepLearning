@@ -1,2 +1,10 @@
 # DeepLearning-Is-All-You-Need
-基础
+<details>
+<summary>
+  Python基础
+</summary>
+  <pre><code>
+  1.输入输出
+  </code></pre>
+</details>
+
