@@ -43,7 +43,7 @@
 - **CS230:深度学习**
   - [**YouTube链接**](https://www.youtube.com/watch?v=PySo_6S4ZAg&list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
   - [**Bilibili链接**](https://www.bilibili.com/video/av59184396/)
-  - [**相关课件**]([http://cs230.stanford.edu/](https://www.youtube.com/redirect?q=http%3A%2F%2Fcs230.stanford.edu%2F&redir_token=W4-iktOgTsmiBmCfF9BHjZNfjRt8MTU2NTEwMDI4N0AxNTY1MDEzODg3&v=PySo_6S4ZAg&event=video_description))
+  - [**相关课件**](http://cs230.stanford.edu/)
 
 </details>
 
