@@ -3,8 +3,10 @@
 <b><details><summary>🔥Python基础</summary></b>
 
 - [01.**基础**](Python/01.base)
-  - [**01.快速入门(ipynb)**](01-Python/01.base/1.Quick_Start.ipynb)/[**01.快速入门(md)**](01-Python/01.base/1.Quick_Start.md)
-  - [**02.数字(ipynb)**](01-Python/01.base/2.number.ipynb)/[**02.数字(md)**](01-Python/01.base/2.number.md)
+  - [**01.快速入门(ipynb)**](01-Python/01.base/01Quick_Start.ipynb)/[**01.快速入门(md)**](01-Python/01.base/01Quick_Start.md)
+  - [**02.数字(ipynb)**](01-Python/01.base/02number.ipynb)/[**02.数字(md)**](01-Python/01.base/02number.md)
+  - [**03字符串(ipynb)**](01-Python/01.base/03string.ipynb)/[**03字符串(md)**](01-Python/01.base/03string.md)
+  - [**04列表(ipynb)**](01-Python/01.base/04list_base.ipynb)/[**04列表(md)**](01-Python/01.base/04list_base.md)
 
 </details>
 
