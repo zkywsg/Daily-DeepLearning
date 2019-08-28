@@ -4,9 +4,16 @@
 
 - [01.**基础**](Python/01.base)
   - [**01.快速入门(ipynb)**](01-Python/01.base/01Quick_Start.ipynb)/[**01.快速入门(md)**](01-Python/01.base/01Quick_Start.md)
+  
   - [**02.数字(ipynb)**](01-Python/01.base/02number.ipynb)/[**02.数字(md)**](01-Python/01.base/02number.md)
+  
   - [**03字符串(ipynb)**](01-Python/01.base/03string.ipynb)/[**03字符串(md)**](01-Python/01.base/03string.md)
+  
   - [**04列表(ipynb)**](01-Python/01.base/04list_base.ipynb)/[**04列表(md)**](01-Python/01.base/04list_base.md)
+  
+  - [**05列表02(ipynb)**](01-Python/01.base/05list_pro.ipynb)/[**05列表02(md)**](01-Python/01.base/05list_pro.md)
+  
+  - [**06字典(ipynb)**](01-Python/01.base/06dict.ipynb)/[**06字典(md)**](01-Python/01.base/06dict.md)
 
 </details>
 
@@ -49,8 +56,19 @@
 
 </details>
 
-<b><details><summary>🌮论文</summary></b>
+<b><details><summary>📖论文</summary></b>
 
 - 更新中
+
+</details>
+
+<b><details><summary>📖参看文献</summary></b>
+
+- **参考书籍**
+	- [**Python编程从入门到实践**](https://item.jd.com/11993134.html)
+
+
+- **参考网站**
+	- [**廖雪峰的Python教程**](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 </details>
