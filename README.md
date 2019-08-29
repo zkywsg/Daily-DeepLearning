@@ -1,4 +1,4 @@
-# **Deep Learning Is All You Need**
+# **Learn Deep Learning With Me**
 
 <b><details><summary>🔥Python基础</summary></b>
 
