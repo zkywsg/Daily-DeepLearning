@@ -1,6 +1,14 @@
 # **Learn Deep Learning With Me**
 
-<b><details><summary>🔥Python基础</summary></b>
+<b><details><summary>💻计算机基础课</summary></b>
+
+- [**数据结构**](09-BaseClass/Ds)
+  - [**基本概念和算法评价**](09-BaseClass/Ds/基本概念和算法评价.md)
+- [**操作系统**](09-BaseClass/Os)
+- [**计算机网络**](09-BaseClass/Cn)
+
+</details>
+<b><details><summary>🐍Python基础</summary></b>
 
 - [01.**基础**](Python/01.base)
   - [**01.快速入门(ipynb)**](01-Python/01.base/01Quick_Start.ipynb)/[**01.快速入门(md)**](01-Python/01.base/01Quick_Start.md)
@@ -17,37 +25,37 @@
 
 </details>
 
-<b><details><summary>🍞机器学习理论</summary></b>
+<b><details><summary>🤖️机器学习理论</summary></b>
 
 - 更新中
 
 </details>
 
-<b><details><summary>🍣深度学习理论</summary></b>
+<b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
 - 更新中
 
 </details>
 
-<b><details><summary>🍰NLP相关理论</summary></b>
+<b><details><summary>🀄️NLP相关理论</summary></b>
 
 - 更新中
 
 </details>
 
-<b><details><summary>🍱机器学习实战</summary></b>
+<b><details><summary>🤖️机器学习实战</summary></b>
 
 - 更新中
 
 </details>
 
-<b><details><summary>🍺 深度学习实战</summary></b>
+<b><details><summary>🏊‍♀️ 深度学习实战</summary></b>
 
 - 更新中
 
 </details>
 
-<b><details><summary>🍭经典教程及解析</summary></b>
+<b><details><summary>🏠经典教程及解析</summary></b>
 
 - **CS230:深度学习**
   - [**YouTube链接**](https://www.youtube.com/watch?v=PySo_6S4ZAg&list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
