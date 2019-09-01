@@ -4,6 +4,7 @@
 
 - [**数据结构**](09-BaseClass/Ds)
   - [**基本概念和算法评价**](09-BaseClass/Ds/基本概念和算法评价.md)
+  - [**线性表**](09-BaseClass/Ds/线性表.md)
 - [**操作系统**](09-BaseClass/Os)
 - [**计算机网络**](09-BaseClass/Cn)
 
