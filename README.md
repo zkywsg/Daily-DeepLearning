@@ -3,24 +3,24 @@
 <b><details><summary>💻计算机基础课</summary></b>
 
 - [**数据结构**](09-BaseClass/Ds)
-  - [**基本概念和算法评价**](09-BaseClass/Ds/基本概念和算法评价.md)
+  - [**01基本概念和算法评价**](09-BaseClass/Ds/基本概念和算法评价.md)
   
-  - [**线性表**](09-BaseClass/Ds/线性表.md)
+  - [**02线性表**](09-BaseClass/Ds/线性表.md)
   
 - [**操作系统**](09-BaseClass/Os)
 
 - [**计算机网络**](09-BaseClass/Cn)
 
-  - [**计算机网络概述**](09-BaseClass/Cn/计算机网络概述.md)
+  - [**01计算机网络概述**](09-BaseClass/Cn/计算机网络概述.md)
 
 </details>
 
 <b><details><summary>🐍Python基础</summary></b>
 
-- [01.**基础**](Python/01.base)
-  - [**01.快速入门(ipynb)**](01-Python/01.base/01Quick_Start.ipynb)/[**01.快速入门(md)**](01-Python/01.base/01Quick_Start.md)
+- [**01基础**](Python/01.base)
+  - [**01快速入门(ipynb)**](01-Python/01.base/01Quick_Start.ipynb)/[**01快速入门(md)**](01-Python/01.base/01Quick_Start.md)
   
-  - [**02.数字(ipynb)**](01-Python/01.base/02number.ipynb)/[**02.数字(md)**](01-Python/01.base/02number.md)
+  - [**02数字(ipynb)**](01-Python/01.base/02number.ipynb)/[**02数字(md)**](01-Python/01.base/02number.md)
   
   - [**03字符串(ipynb)**](01-Python/01.base/03string.ipynb)/[**03字符串(md)**](01-Python/01.base/03string.md)
   
@@ -29,6 +29,10 @@
   - [**05列表02(ipynb)**](01-Python/01.base/05list_pro.ipynb)/[**05列表02(md)**](01-Python/01.base/05list_pro.md)
   
   - [**06字典(ipynb)**](01-Python/01.base/06dict.ipynb)/[**06字典(md)**](01-Python/01.base/06dict.md)
+
+  - [**07if语句(ipynb)**](01-Python/01.base/07if.ipynb)/[**07if语句(md)**](01-Python/01.base/07if.md)
+
+  - [**08while语句(ipynb)**](01-Python/01.base/08while.ipynb)/[**08while语句(md)**](01-Python/01.base/08while.md)
 
 </details>
 
