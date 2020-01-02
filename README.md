@@ -57,9 +57,16 @@
 
 </details>
 
-<b><details><summary>🤖️机器学习理论</summary></b>
+<b><details><summary>🐛爬虫相关</summary></b>
 
 - 更新中
+
+</details>
+
+<b><details><summary>🤖️机器学习理论</summary></b>
+
+- [**吴恩达机器学习**](02-Machine-Learning/吴恩达机器学习)
+	- [**Day-01文字版**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
 
 </details>
 
@@ -102,9 +109,15 @@
 
 </details>
 
-<b><details><summary>剑指offer</summary></b>
+<b><details><summary>📄剑指offer</summary></b>
+- [**手写笔记**](10-offer/剑指offer.pdf)
+- [**Day-01:二维数组中的查找**](10-offer/day01.cpp)
 
-- [**Day01二维数组中的查找**](10-offer/day01.cpp)
+</details>
+
+<b><details><summary>📺Leetcode</summary></b>
+
+- 更新中
 
 </details>
 
@@ -116,5 +129,12 @@
 
 - **参考网站**
 	- [**廖雪峰的Python教程**](https://www.liaoxuefeng.com/wiki/1016959663602400)
+
+</details>
+
+<b><details><summary>🌲我的自媒体账号</summary></b>
+
+- [**B站**](https://space.bilibili.com/97413841)
+- **公众号:深度学习快乐水**
 
 </details>
