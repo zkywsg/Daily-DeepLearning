@@ -27,7 +27,9 @@ print(distance)
 print(name)
 ```
 \>>>10
+
 10.0
+
 sb
 
 
@@ -48,7 +50,9 @@ print(a,b,c)
 a, b, c = 1, 1.0, 'sb'
 print(a,b,c)
 ```
-\>>>1 1.0 sb
+\>>>1
+1.0
+sb
 
 
 ### 3. 字符串
@@ -100,12 +104,16 @@ print("\tsb")
 ```
 \>>>sb
 
-     sb
+\>>>&emsp;sb
 
 ```%%python
 # 3.3.2 换行符\t
 print("NT\nSB\nNC")
 ```
+\>>>NT
+SB
+NC
+
 
 ```%%python
 # 3.4.1 删除左边的空白 lstrip()函数
@@ -118,6 +126,9 @@ print(your_name.rstrip())
 # 3.4.3 删除两边的空白 strip()函数
 print(your_name.strip())
 ```
+\>>> sb
+\>>>   sb
+
 
 ```%%python
 # 3.5 编码问题
