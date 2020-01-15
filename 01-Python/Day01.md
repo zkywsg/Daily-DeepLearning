@@ -1,6 +1,6 @@
 ### 1. Hello World
 
-```%%python
+```python
 print("Hello World!")
 ```
 \>>> Hello World!
@@ -16,7 +16,7 @@ print("Hello World!")
  - 不需要类型声明
  - 每个变量都必须赋值，赋值以后变量才会被创建
 
-```%%python
+```python
 # 2.1 命名
 # 2.2 变量赋值
 number = 10 # 整型变量
@@ -37,7 +37,7 @@ sb
  - 同时为多个变量赋值
  - 为多个对象指定多个变量
 
-```%%python
+```python
 # 2.3.1 同时为多个变量赋值
 a = b = c = 1
 print(a,b,c)
@@ -45,13 +45,15 @@ print(a,b,c)
 \>>>1 1 1
 
 
-```%%python
+```python
 # 2.3.2 为多个对象指定多个变量
 a, b, c = 1, 1.0, 'sb'
 print(a,b,c)
 ```
 \>>>1
+
 1.0
+
 sb
 
 
@@ -64,7 +66,7 @@ sb
  - 3.6 格式化输出
  - 3.7 索引
 
-```%%python
+```python
 # 3.1 修改字符串的大小写
 # 3.1.1 让首字母大写 title()函数
 name = 'clear love'
@@ -73,21 +75,21 @@ print(name.title())
 \>>>Clear Love
 
 
-```%%python
+```python
 # 3.1.2 让所有字母变成大写 upper()函数
 print(name.upper())
 ```
 \>>>CLEAR LOVE
 
 
-```%%python
+```python
 # 3.1.3 让所有字母变成小写 lower()函数
 print(name.lower())
 ```
 \>>>clear love
 
 
-```%%python
+```python
 # 3.2 通过+来合并字符串
 first_name = 'clear'
 last_name = 'love'
@@ -97,7 +99,7 @@ print('Hello ' + full_name.title() + '!')
 \>>>Hello Clear Love!
 
 
-```%%python
+```python
 # 3.3.1 制表符\t
 print("sb")
 print("\tsb")
@@ -106,16 +108,18 @@ print("\tsb")
 
 \>>>&emsp;sb
 
-```%%python
+```python
 # 3.3.2 换行符\t
 print("NT\nSB\nNC")
 ```
 \>>>NT
+
 SB
+
 NC
 
 
-```%%python
+```python
 # 3.4.1 删除左边的空白 lstrip()函数
 your_name = ' sb '
 print(your_name.lstrip())
@@ -127,10 +131,13 @@ print(your_name.rstrip())
 print(your_name.strip())
 ```
 \>>> sb
-\>>>   sb
+
+\>>>&emsp;sb
+
+\>>>sb
 
 
-```%%python
+```python
 # 3.5 编码问题
 # 我们要先了解几种编码，ASCII:一个字节，包括了一些数字和英文字母
 # Unicode:两个字节，由于一个字节被一些数字和英文字母用完了，那么汉字在一个字节的情况下就会出现乱码，所以两个字节的Unicode就诞生了
@@ -142,38 +149,78 @@ print(your_name.strip())
 print(ord('A'))
 print(chr(66))
 ```
+\>>>65
 
-```%%python
+B
+
+
+```python
 # 编码
 print('A'.encode('ascii'))
 print('哈哈'.encode('utf-8'))
 ```
+\>>>b'A'
 
+b'\xe5\x93\x88\xe5\x93\x88'
+
+```python
 # 解码
 print(b'ABC'.decode('ascii'))
 print(b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8'))
-# %%
+```
+\>>>ABC
+
+中文
+
+```python
 # 若有错误
 b'\xe4\xb8\xad\xff'.decode('utf-8')
-# %%
+```
+\>>>---------------------------------------------------------------------------
+UnicodeDecodeError                        Traceback (most recent call last)
+<ipython-input-40-cd8de1b11dcd> in <module>
+----> 1 b'\xe4\xb8\xad\xff'.decode('utf-8')
+
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 3: invalid start byte
+
+```python
 # 传入参数errors='ignore' 忽略错误
 b'\xe4\xb8\xad\xff'.decode('utf-8',errors='ignore')
-# %%
+```
+\>>>'中'
+
+
+```python
 # len()函数计算字符个数或字节数
 print(len('中文')) #字符个数
 print(len(b'\xe4\xb8\xad\xe6\x96\x87')) #字节数
-# %%
+```
+\>>>2
+
+6
+
+```python
 # 3.6 格式化输出
 # 3.6.1 %d 整数 %f 浮点数 %s 字符串 %x 十六进制数
 'Hello, %s' %'world'
-# %%
+```
+\>>>'Hello, world'
+
+
+```python
 # 3.6.2 遇到需要表示普通字符%的时候
 print('%d %%'%10)
-# %%
+```
+\>>>10 %
+
+```python
 # 3.6.3 format()函数对应{0},{1}······
 # {1:.1f} -> .1f精确到小数点后一位
 'hello {0},you get {1:.1f} point'.format('sb',0.000)
-# %%
+```
+\>>>'hello sb,you get 0.0 point'
+
+
 # 3.7 索引
 # 从左到右从0开始
 # 从右到左从-1开始
