@@ -26,10 +26,12 @@ print(number)
 print(distance)
 print(name)
 ```
-\>>>10
-
+\>>>
+<br/>
+10
+<br/>
 10.0
-
+<br/>
 sb
 
 
@@ -50,10 +52,12 @@ print(a,b,c)
 a, b, c = 1, 1.0, 'sb'
 print(a,b,c)
 ```
-\>>>1
-
+\>>>
+<br/>
+1
+<br/>
 1.0
-
+<br/>
 sb
 
 
@@ -104,18 +108,22 @@ print('Hello ' + full_name.title() + '!')
 print("sb")
 print("\tsb")
 ```
-\>>>sb
-
-\>>>&emsp;sb
+\>>>
+<br/>
+sb
+<br/>
+&emsp;sb
 
 ```python
 # 3.3.2 换行符\t
 print("NT\nSB\nNC")
 ```
-\>>>NT
-
+\>>>
+<br/>
+NT
+<br/>
 SB
-
+<br/>
 NC
 
 
@@ -130,11 +138,13 @@ print(your_name.rstrip())
 # 3.4.3 删除两边的空白 strip()函数
 print(your_name.strip())
 ```
-\>>> sb
-
-\>>>&emsp;sb
-
-\>>>sb
+\>>>
+<br/>
+sb
+<br/>
+&emsp;sb
+<br/>
+sb
 
 
 ```python
@@ -149,8 +159,10 @@ print(your_name.strip())
 print(ord('A'))
 print(chr(66))
 ```
-\>>>65
-
+\>>>
+<br/>
+65
+<br/>
 B
 
 
@@ -159,8 +171,10 @@ B
 print('A'.encode('ascii'))
 print('哈哈'.encode('utf-8'))
 ```
-\>>>b'A'
-
+\>>>
+<br/>
+b'A'
+<br/>
 b'\xe5\x93\x88\xe5\x93\x88'
 
 ```python
@@ -168,15 +182,18 @@ b'\xe5\x93\x88\xe5\x93\x88'
 print(b'ABC'.decode('ascii'))
 print(b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8'))
 ```
-\>>>ABC
-
+\>>>
+<br/>
+ABC
+<br/>
 中文
 
 ```python
 # 若有错误
 b'\xe4\xb8\xad\xff'.decode('utf-8')
 ```
-\>>>---------------------------------------------------------------------------
+\>>>
+<br/>
 UnicodeDecodeError                        Traceback (most recent call last)
 <ipython-input-40-cd8de1b11dcd> in <module>
 ----> 1 b'\xe4\xb8\xad\xff'.decode('utf-8')
@@ -195,8 +212,10 @@ b'\xe4\xb8\xad\xff'.decode('utf-8',errors='ignore')
 print(len('中文')) #字符个数
 print(len(b'\xe4\xb8\xad\xe6\x96\x87')) #字节数
 ```
-\>>>2
-
+\>>>
+<br/>
+2
+<br/>
 6
 
 ```python
@@ -239,16 +258,18 @@ print(str[-1])
 # 输出两次
 print(str*2)
 ```
-\>>>Hello world
-
+\>>>
+<br/>
+Hello world
+<br/>
 H
-
+<br/>
 ello
-
+<br/>
 llo world
-
+<br/>
 d
-
+<br/>
 Hello worldHello world
 
 
@@ -276,18 +297,20 @@ print(5%2)
 # 取整除/向下取整
 print(3//2)
 ```
-\>>>5
-
+\>>>
+<br/>
+5
+<br/>
 1
-
+<br/>
 6
-
+<br/>
 1.5
-
+<br/>
 9
-
+<br/>
 1
-
+<br/>
 1
 
 ```python
@@ -305,16 +328,18 @@ print(1 < 2)
 print(1 >= 1)
 print(1 <= 2)
 ```
-\>>>False
-
-True
-
+\>>>
+<br/>
 False
-
+<br/>
 True
-
+<br/>
+False
+<br/>
 True
-
+<br/>
+True
+<br/>
 True
 
 ```python
@@ -324,19 +349,16 @@ True
 print('1&0:',1&0)
 print('1&1:',1&1)
 print('0&0:',0&0)
-print('---------------------------')
 
 # 或运算 有1就得1
 print('1|0:',1|0)
 print('1|1:',1|1)
 print('0|0:',0|0)
-print('---------------------------')
 
 # 异或运算 不相同才得1
 print('1^1:',1^1)
 print('1^0:',1^0)
 print('0^0:',0^0)
-print('---------------------------')
 
 # 左移运算符 高位丢弃/低位补0 2:0000 0010 左移一位 4:0000 0100
 print('2<<1:',2 << 1)
@@ -344,31 +366,31 @@ print('2<<1:',2 << 1)
 # 右移运算符 地位丢弃/高位补0 2:0000 0010 右移一位 1:0000 0001
 print('2>>1:',2 >> 1)
 ```
-\>>>1&0: 0
-
+\>>>
+<br/>
+1&0: 0
+<br/>
 1&1: 1
-
+<br/>
 0&0: 0
 
----------------------------
 
 1|0: 1
-
+<br/>
 1|1: 1
-
+<br/>
 0|0: 0
 
----------------------------
 
 1^1: 0
-
+<br/>
 1^0: 1
-
+<br/>
 0^0: 0
 
----------------------------
-2<<1: 4
 
+2<<1: 4
+<br/>
 2>>1: 1
 
 
@@ -379,34 +401,27 @@ print('2>>1:',2 >> 1)
 a = False
 b = 2
 print('a=False,b=2,a and b:',a and b)
-print('-----------------------------')
 
 a = 1
 print('a=1,b=2,a and b:',a and b)
-print('-----------------------------')
 
 # or : x or y ,若x不是0，则返回x的值，否则返回y的计算值
 print('a=1,b=2,a or b:',a or b)
-print('-----------------------------')
 
 a = 0
 print('a=0,b=2,a or b:',a or b)
-print('-----------------------------')
 
 # not : not x
 print('a=0,not a:',not a)
 ```
-\>>>a=False,b=2,a and b: False
-
------------------------------
+\>>>
+<br/>
+a=False,b=2,a and b: False
+<br/>
 a=1,b=2,a and b: 2
-
------------------------------
+<br/>
 a=1,b=2,a or b: 1
-
------------------------------
-
+<br/>
 a=0,b=2,a or b: 1
-
------------------------------
+<br/>
 a=0,not a: False

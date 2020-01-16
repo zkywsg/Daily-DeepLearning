@@ -18,13 +18,15 @@ print('访问所有值:',name)
 # 1.1.4 访问倒数第一个
 print('访问倒数第一个:',name[-1])
 ```
-\>>>访问列表中的第一个值: Tim
-
-&emsp;&emsp;访问列表中的第一个值: ['Kris', 'Sam']
-
-&emsp;&emsp;访问所有值: ['Tim', 'Kris', 'Sam']
-
-&emsp;&emsp;访问倒数第一个: Sam
+\>>>
+<br/>
+访问列表中的第一个值: Tim
+<br/>
+访问列表中的第一个值: ['Kris', 'Sam']
+<br/>
+访问所有值: ['Tim', 'Kris', 'Sam']
+<br/>
+访问倒数第一个: Sam
 
 ```python
 # 1.2 修改/删除/添加元素
@@ -41,9 +43,11 @@ print('删除元素前：',name)
 del name[1]
 print('删除第2个元素后:',name)
 ```
-\>>>删除元素前： ['Tim', 'Kris', 'sb']
-
-&emsp;删除第2个元素后: ['Tim', 'sb']
+\>>>
+<br/>
+删除元素前： ['Tim', 'Kris', 'sb']
+<br/>
+删除第2个元素后: ['Tim', 'sb']
 
 ```python
 # 删除最后一个元素 pop()函数
@@ -51,10 +55,11 @@ print('删除元素前：',name)
 name.pop()
 print('删除最后一个元素后:',name)
 ```
-\>>>删除元素前： ['Tim', 'sb']
-
-
-&emsp;删除最后一个元素后: ['Tim']
+\>>>
+<br/>
+删除元素前： ['Tim', 'sb']
+<br/>
+删除最后一个元素后: ['Tim']
 
 ```python
 # 1.2.3 添加元素
@@ -63,9 +68,11 @@ print('添加元素前:',name)
 name.insert(1,'Kris')
 print('在第1个位置添加元素后:',name)
 ```
-\>>>添加元素前: ['Tim']
-
-&emsp;在第1个位置添加元素后: ['Tim', 'Kris']
+\>>>
+<br/>
+添加元素前: ['Tim']
+<br/>
+在第1个位置添加元素后: ['Tim', 'Kris']
 
 ```python
 # 在最后一个位置添加元素 append()函数
@@ -73,9 +80,11 @@ print('添加元素前:',name)
 name.append('Sam')
 print('添加在最后一个位置后:',name)
 ```
-\>>>添加元素前: ['Tim', 'Kris']
-
-&emsp;添加在最后一个位置后: ['Tim', 'Kris', 'Sam']
+\>>>
+<br/>
+添加元素前: ['Tim', 'Kris']
+<br/>
+添加在最后一个位置后: ['Tim', 'Kris', 'Sam']
 
 
 ```python
@@ -120,11 +129,13 @@ print('列表中的最大值:',max(list1))
 # 获得列表中的最小值 min()函数
 print('列表中的最小值:',min(list1))
 ```
-\>>>输出函数长度: 3
-
-&emsp;列表中的最大值: 3
-
-&emsp;列表中的最小值: 1
+\>>>
+<br/>
+输出函数长度: 3
+<br/>
+列表中的最大值: 3
+<br/>
+列表中的最小值: 1
 
 ```python
 # 永久排序方法 sort()
@@ -140,9 +151,11 @@ list5 = [3,5,2,6,1]
 print('暂时排序的结果:',sorted(list5))
 print('排序后原列表:',list5)
 ```
-\>>>暂时排序的结果: [1, 2, 3, 5, 6]
-
-&emsp;排序后原列表: [3, 5, 2, 6, 1]
+\>>>
+<br/>
+暂时排序的结果: [1, 2, 3, 5, 6]
+<br/>
+排序后原列表: [3, 5, 2, 6, 1]
 
 ```python
 # reverse=True参数 逆序排序
@@ -172,14 +185,14 @@ print(p)
 # 元组是不可修改的
 t[0] = 2
 ```
-\>>>---------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
+\>>>
+<br/>
+TypeError
+<br/>                                 Traceback (most recent call last)
 <ipython-input-46-0c6697a06bab> in <module>
 ----> 1 t[0] = 2
-
+<br/>
 TypeError: 'tuple' object does not support item assignment
-
-
 
 ```python
 # 2.2 访问/修改/删除元组
@@ -191,9 +204,11 @@ t1 = (1,2,3)
 t2 = (4,5)
 print('拼接两个元组:',t1+t2)
 ```
-\>>>访问第一个元素: 1
-
-&emsp;拼接两个元组: (1, 2, 3, 4, 5)
+\>>>
+<br/>
+访问第一个元素: 1
+<br/>
+拼接两个元组: (1, 2, 3, 4, 5)
 
 ```python
 # 删除
@@ -202,11 +217,13 @@ del t2
 # 删除后 就不存在了
 print('t2删除后：',t2)
 ```
-\>>>t2删除前: (4, 5)
-
----------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
+\>>>
+<br/>
+t2删除前: (4, 5)
+<br/>
+NameError
+<br/>                                Traceback (most recent call last)
 <ipython-input-54-180cf0a61efb> in <module>
 ----> 1 print('t2删除后：',t2)
-
+<br/>
 NameError: name 't2' is not defined

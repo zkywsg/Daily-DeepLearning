@@ -39,9 +39,11 @@ d['d'] = 4
 d['e'] = 5
 print('添加后的字典:',d)
 ```
-\>>>添加前的字典: {'a': 1, 'b': 2, 'c': 3}
-
-&emsp;添加后的字典: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+\>>>
+<br/>
+添加前的字典: {'a': 1, 'b': 2, 'c': 3}
+<br/>
+添加后的字典: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 
 ```python
 # 1.4 修改字典
@@ -49,9 +51,11 @@ print('修改前的字典:',d)
 d['a'] = 666
 print('修改后的字典:',d)
 ```
-\>>>修改前的字典: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
-
-&emsp;修改后的字典: {'a': 666, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+\>>>
+<br/>
+修改前的字典: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+<br/>
+修改后的字典: {'a': 666, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 
 ```python
 # 1.5 删除字典元素 del
@@ -60,9 +64,12 @@ print('删除前的字典:',d)
 del d['c']
 print('删除c后的字典',d)
 ```
-\>>>删除前的字典: {'a': 666, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+\>>>
+<br/>
+删除前的字典: {'a': 666, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+<br/>
 
-&emsp;删除c后的字典 {'a': 666, 'b': 2, 'd': 4, 'e': 5}
+删除c后的字典 {'a': 666, 'b': 2, 'd': 4, 'e': 5}
 
 ```python
 # 清空所有条目
@@ -80,16 +87,17 @@ for k,v in user.items():
     print('\nvalue',v)
 ```
 \>>>
+<br/>
 key: username
-
+<br/>
 value sbzz
 
 key: first
-
+<br/>
 value sb
 
 key: last
-
+<br/>
 value zz
 
 
@@ -99,10 +107,12 @@ value zz
 for k in user.keys():
     print(k)
 ```
-\>>>username
-
+\>>>
+<br/>
+username
+<br/>
 first
-
+<br/>
 last
 
 ```python
@@ -110,10 +120,12 @@ last
 for k in sorted(user.keys()):
     print(k)
 ```
-\>>>first
-
+\>>>
+<br/>
+first
+<br/>
 last
-
+<br/>
 username
 
 ```python
@@ -122,10 +134,12 @@ username
 for v in user.values():
     print(v)
 ```
-\>>> sbzz
-
+\>>>
+<br/>
+sbzz
+<br/>
 sb
-
+<br/>
 zz
 
 ```python
@@ -141,10 +155,12 @@ aliens = [alien_0,alien_1,alien_2]
 for alien in aliens:
     print(alien)
 ```
-\>>>{'color': 'green', 'point': 5}
-
+\>>>
+<br/>
+{'color': 'green', 'point': 5}
+<br/>
 {'color': 'red', 'point': 3}
-
+<br/>
 {'color': 'yellow', 'point': 2}
 
 ```python
@@ -160,17 +176,17 @@ for name,languages in favorite_languages.items():
           print('\t'+language.title())
 ```
 \>>>
-
+<br/>
 Sb's favorite languages are:
-
+<br/>
     Python
-
+<br/>
     C++
 
 Zz's favorite languages are:
-
+<br/>
     Java
-
+<br/>
     Php
 
 ```python
@@ -193,12 +209,13 @@ for username,fullname in user.items():
     print('Full name:' + full_name.title())
 ```
 \>>>
+<br/>
 Username:aeinstein
-
+<br/>
 Full name:Albert Einstein
 
 Username:mcurie
-
+<br/>
 Full name:Marie Curie
 
 ###  2. Set
