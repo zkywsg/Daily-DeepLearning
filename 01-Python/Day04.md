@@ -1,6 +1,6 @@
-# %% markdown
-# ### 1. if
-# %%
+### 1. if
+
+```python
 # 通过缩进进行分段 掌握if else 和 elif
 age = 3
 if age >= 18:
@@ -9,7 +9,8 @@ elif age >= 6:
     print('teenager')
 else:
     print('kid')
-# %% markdown
+```
+
 # ###  2. 循环
 # - for循环的基本用法
 # - while循环的基本用法

@@ -20,11 +20,11 @@ print('访问倒数第一个:',name[-1])
 ```
 \>>>访问列表中的第一个值: Tim
 
-访问列表中的第一个值: ['Kris', 'Sam']
+&emsp;&emsp;访问列表中的第一个值: ['Kris', 'Sam']
 
-访问所有值: ['Tim', 'Kris', 'Sam']
+&emsp;&emsp;访问所有值: ['Tim', 'Kris', 'Sam']
 
-访问倒数第一个: Sam
+&emsp;&emsp;访问倒数第一个: Sam
 
 ```python
 # 1.2 修改/删除/添加元素
@@ -43,7 +43,7 @@ print('删除第2个元素后:',name)
 ```
 \>>>删除元素前： ['Tim', 'Kris', 'sb']
 
-删除第2个元素后: ['Tim', 'sb']
+&emsp;删除第2个元素后: ['Tim', 'sb']
 
 ```python
 # 删除最后一个元素 pop()函数
@@ -54,7 +54,7 @@ print('删除最后一个元素后:',name)
 \>>>删除元素前： ['Tim', 'sb']
 
 
-删除最后一个元素后: ['Tim']
+&emsp;删除最后一个元素后: ['Tim']
 
 ```python
 # 1.2.3 添加元素
@@ -65,7 +65,7 @@ print('在第1个位置添加元素后:',name)
 ```
 \>>>添加元素前: ['Tim']
 
-在第1个位置添加元素后: ['Tim', 'Kris']
+&emsp;在第1个位置添加元素后: ['Tim', 'Kris']
 
 ```python
 # 在最后一个位置添加元素 append()函数
@@ -75,7 +75,7 @@ print('添加在最后一个位置后:',name)
 ```
 \>>>添加元素前: ['Tim', 'Kris']
 
-添加在最后一个位置后: ['Tim', 'Kris', 'Sam']
+&emsp;添加在最后一个位置后: ['Tim', 'Kris', 'Sam']
 
 
 ```python
@@ -122,9 +122,9 @@ print('列表中的最小值:',min(list1))
 ```
 \>>>输出函数长度: 3
 
-列表中的最大值: 3
+&emsp;列表中的最大值: 3
 
-列表中的最小值: 1
+&emsp;列表中的最小值: 1
 
 ```python
 # 永久排序方法 sort()
@@ -142,7 +142,7 @@ print('排序后原列表:',list5)
 ```
 \>>>暂时排序的结果: [1, 2, 3, 5, 6]
 
-排序后原列表: [3, 5, 2, 6, 1]
+&emsp;排序后原列表: [3, 5, 2, 6, 1]
 
 ```python
 # reverse=True参数 逆序排序
@@ -153,31 +153,60 @@ print('暂时逆序排序的结果:',sorted(list5,reverse=True))
 ### 2. 元组
 - 2.1 定义元组
 - 2.2 访问/修改/删除元组
-# %%
+
+```python
 # 2.1 定义元组
 t = (1,2)
 print(t)
+```
+\>>>(1, 2)
 
+```python
 # 空元组
 p = ()
 print(p)
-# %%
+```
+\>>>()
+
+```python
 # 元组是不可修改的
 t[0] = 2
-# %%
+```
+\>>>---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-46-0c6697a06bab> in <module>
+----> 1 t[0] = 2
+
+TypeError: 'tuple' object does not support item assignment
+
+
+
+```python
 # 2.2 访问/修改/删除元组
 
 # 访问
 print('访问第一个元素:',t[0])
-
 # 修改是非法的 但是可以创建新的元组
 t1 = (1,2,3)
 t2 = (4,5)
 print('拼接两个元组:',t1+t2)
-print('---------')
+```
+\>>>访问第一个元素: 1
 
+&emsp;拼接两个元组: (1, 2, 3, 4, 5)
+
+```python
 # 删除
-print('t3删除前:',t3)
-del t3
+print('t2删除前:',t2)
+del t2
 # 删除后 就不存在了
-print('t3删除后：',t3)
+print('t2删除后：',t2)
+```
+\>>>t2删除前: (4, 5)
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-54-180cf0a61efb> in <module>
+----> 1 print('t2删除后：',t2)
+
+NameError: name 't2' is not defined
