@@ -57,7 +57,16 @@
   - 定义函数(定义函数结构/空函数/参数检查/多个返回值)
   - 函数的参数(位置函数/默认参数/可变参数/关键字参数/命名关键字参数)
   - 参数的组合
-
+- [**Day06**](01-Python/Day06.md)
+  - 迭代(collections/enumerate)
+  - 列表生成式
+  - 生成器(简单写法/next/yield)
+  - 迭代器(Iterable/Iterator)
+- [**Day07**](01-Python/Day07.md)
+  - 高阶函数(map/reduce/filter/sorted)
+  - 返回函数(函数作为返回值/闭包)
+  - 匿名函数
+  - 装饰器
 </details>
 
 <b><details><summary>🐛爬虫相关</summary></b>
