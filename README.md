@@ -37,7 +37,7 @@
 </details>
 
 <b><details><summary>🐍Python</summary></b>
-
+- 内容来源：廖雪峰的官方教程/菜鸟教程/CSDN/github/《流畅的Python》
 - [**Day01**](01-Python/Day01.md)
 	- hello world
 	- 变量(命名/变量赋值/多个变量赋值)

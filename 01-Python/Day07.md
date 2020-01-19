@@ -213,5 +213,30 @@ execute now:
 2020-01-01
 
 ```python
-
+# 相当于
+now = log('execute')(now)
+# 先执行了log('execute'),返回了decorator函数，再调用返回函数，参数是now，返回的是wrapper
+# 也就是原来的now函数变成了现在的wrapper函数了
+now.__name__
 ```
+\>>>'wrapper'
+
+```python
+# 想要保持now的name的话 wrapper.__name__ = func.__name__
+# 可以用装饰器 @functools.wraps(func)
+import functools
+def log(func):
+    @functools.wraps(func)
+    def wrapper(*args,**kw):
+        print('call %s():' % func.__name__)
+        return func(*args,**kw)
+    return wrapper
+
+# %%
+@log
+def now():
+    print('2020-01-01')
+# %%
+now.__name__
+```
+\>>>'now'
