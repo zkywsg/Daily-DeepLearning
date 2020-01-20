@@ -67,6 +67,33 @@
   - 返回函数(函数作为返回值/闭包)
   - 匿名函数
   - 装饰器
+
+- [**Day08**](01-Python/Day08.md)
+  - 类和实例(基本定义/创建实例/绑定属性/\__init__/数据封装)
+  - 限制访问
+  - 继承和多态(继承/子类的特性/理解多态)
+  - 实例属性和类属性
+
+- [**Day09**](01-Python/Day09.md)
+  - 使用\__slots__
+  - @property
+  - 多重继承
+  - 定制类(\__str__/\__iter__/\__getitem__/\__getattr__/\__call__)
+  - 枚举类
+</details>
+
+<b><details><summary>💻C++</summary></b>
+
+- [**C++Primer**](12-Cpp/CppPrimer)
+  - [**第二章练习**](12-Cpp/CppPrimer/ch02)
+  - [**第三章练习**](12-Cpp/CppPrimer/ch03)
+  - [**第四章练习**](12-Cpp/CppPrimer/ch04)
+  - [**第五章练习**](12-Cpp/CppPrimer/ch05)
+  - [**第六章练习**](12-Cpp/CppPrimer/ch06)
+  - [**第七章练习**](12-Cpp/CppPrimer/ch07)
+  - [**第八章练习**](12-Cpp/CppPrimer/ch08)
+  - [**第九章练习**](12-Cpp/CppPrimer/ch09)
+
 </details>
 
 <b><details><summary>🐛爬虫相关</summary></b>
@@ -78,7 +105,8 @@
 <b><details><summary>🤖️机器学习理论</summary></b>
 
 - [**吴恩达机器学习**](02-Machine-Learning/吴恩达机器学习)
-	- [**Day-01文字版**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
+	- [**Day-01**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
+      - 机器学习背景/定义/监督学习/无监督学习
 
 </details>
 
@@ -122,7 +150,7 @@
 </details>
 
 <b><details><summary>📄剑指offer</summary></b>
--  **Day-01:二维数组中的查找**/[**代码**](10-offer/day01.cpp)/[**文字分析**](10-offer/day01.md)/[**手写分析**](10-offer/day01.pdf)
+-  **Day-01:二维数组中的查找**/[**代码**](10-offer/day01.cpp)/[**分析**](10-offer/day01.md)
 
 </details>
 
