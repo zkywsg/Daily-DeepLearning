@@ -1,1 +1,1 @@
-- 换源：pip3 install 库名 -i https://pypi.tuna.tsinghua.edu.cn/simple
+- 换源：pip3 install sklearn -i https://pypi.tuna.tsinghua.edu.cn/simple
