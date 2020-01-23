@@ -80,6 +80,19 @@
   - 多重继承
   - 定制类(\__str__/\__iter__/\__getitem__/\__getattr__/\__call__)
   - 枚举类
+
+- [**Day10**](01-Python/Day10.md)
+  - 错误处理(try/except/finally/调用栈/记录错误/抛出错误)
+  - 调试(print/assert/logging/pdb)
+  - 文档测试
+  - 单元测试
+
+- [**Day11**](01-Python/Day11.md)
+  - 文件读写(读文件/字符编写/写文件)
+  - StringIO和BytesIO
+  - 操作文件和目录
+  - 序列化
+
 </details>
 
 <b><details><summary>💻C++</summary></b>
