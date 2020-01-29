@@ -149,5 +149,82 @@ train_data[targets].describe()
 # checking missing data in train data
 total = train_data.isnull().sum().sort_values(ascending=False)
 percent = (train_data.isnull().sum()/train_data.isnull().count()*100).sort_values(ascending=False)
+missing_train_data = pd.concat([total,percent],axis=1,keys=['Total','Percent'])
+missing_train_data.head()
+```
+>>>
+```
+                    Total	Percent
+answer_well_written	0	0.0
+question_multi_intent	0	0.0
+question_interestingness_others	0	0.0
+question_has_commonly_accepted_answer	0	0.0
+question_fact_seeking	0	0.0
+```
 
+```python
+# checking missing data
+total = test_data.isnull().sum().sort_values(ascending = False)
+percent = (test_data.isnull().sum()/test_data.isnull().count()*100).sort_values(ascending = False)
+missing_test_data  = pd.concat([total, percent], axis=1, keys=['Total', 'Percent'])
+missing_test_data.head()
+```
+```
+    Total	Percent
+host	0	0.0
+category	0	0.0
+url	0	0.0
+answer_user_page	0	0.0
+answer_user_name	0	0.0
+```
+
+
+ # <a id='5'>5. Data Exploration</a>
+  ## <a id='5-1'>5.1 Distribution of Host(from which website Question & Answers collected)</a>
+```python
+temp = train_data['host'].value_counts()
+df = pd.DataFrame({'labels':temp.index,'values':temp.values})
+df.iplot(kind='pie',labels='labels',values='values',title='Distribution of hosts in Training data')
+```
+\>>>
+
+```python
+temp = test_data['host'].value_counts()
+df = pd.DataFrame({'labels':temp.index,
+                    'values':temp.values})
+df.iplot(kind='pie',labels='labels',values='values',title='Distribution of hosts in test data')
+```
+
+  ## <a id='5-2'>5.2 Distribution of categories</a>
+```python
+temp = train_data["category"].value_counts()
+#print("Total number of states : ",len(temp))
+trace = go.Bar(
+    x = temp.index,
+    y = (temp / temp.sum())*100,
+)
+data = [trace]
+layout = go.Layout(
+    title = "Distribution of categories in training data in % ",
+    xaxis=dict(
+        title='category',
+        tickfont=dict(
+            size=14,
+            color='rgb(107, 107, 107)'
+        )
+    ),
+    yaxis=dict(
+        title='Count in %',
+        titlefont=dict(
+            size=16,
+            color='rgb(107, 107, 107)'
+        ),
+        tickfont=dict(
+            size=14,
+            color='rgb(107, 107, 107)'
+        )
+)
+)
+fig = go.Figure(data=data, layout=layout)
+py.iplot(fig, filename='test')
 ```

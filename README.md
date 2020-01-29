@@ -93,6 +93,10 @@
   - 操作文件和目录
   - 序列化
 
+- [**Day12**](01-Python/Day12.md)
+  - 多进程(多进程的定义/multiprocessing/subprocess/子进程输入/进程间通信)
+  - 多线程(threading/Lock/threading.lock)
+  - ThreadLocal
 </details>
 
 <b><details><summary>💻C++</summary></b>
