@@ -1,5 +1,4 @@
 #include <iostream>
-
 int main()
 {
     unsigned u = 10, u2 = 42;
