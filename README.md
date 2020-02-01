@@ -131,6 +131,8 @@
 </details>
 
 <b><details><summary>🤖️机器学习理论</summary></b>
+- [**sklearn**](02-Machine-Learning/sklearn相关)
+  - [**Day01**](02-Machine-Learning/sklearn相关/Day01.md)
 
 - [**吴恩达机器学习**](02-Machine-Learning/吴恩达机器学习)
 	- [**Day-01**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
@@ -152,7 +154,8 @@
 
 <b><details><summary>🤖️机器学习实战</summary></b>
 
-- 更新中
+- [**sklearn**](05-Machine-Learning-Code/sklearn)
+  - [**Day01**](05-Machine-Learning-Code/sklearn/Day01.md)
 
 </details>
 
