@@ -2,4 +2,10 @@
 
 ### 岭回归
 
-### Lasso
+### logistic回归
+
+### L1罚项
+
+### 随机梯度下降/SGD
+
+### Perceptron感知器
