@@ -11,8 +11,6 @@
   - [**06查找**](09-BaseClass/Ds/06查找.md)
   - [**07排序**](09-BaseClass/Ds/07排序.md)
 
-- [**计算机组成原理**](09-BaseClass/Cc)
-  - [**01计算机系统概述**](09-BaseClass/Cc/01计算机系统概述.md)
 
 - [**操作系统**](09-BaseClass/Os)
   - [**01操作系统的基本概念**](09-BaseClass/Os/01操作系统的基本概念.md)
