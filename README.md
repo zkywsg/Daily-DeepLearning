@@ -112,7 +112,7 @@
 
 <b><details><summary>💻C++</summary></b>
 
-- [**C++Primer**](12-Cpp/CppPrimer)
+- **C++Primer**
   - [**第二章练习**](12-Cpp/CppPrimer/ch02)
   - [**第三章练习**](12-Cpp/CppPrimer/ch03)
   - [**第四章练习**](12-Cpp/CppPrimer/ch04)
@@ -131,10 +131,10 @@
 </details>
 
 <b><details><summary>🤖️机器学习理论</summary></b>
-- [**sklearn**](02-Machine-Learning/sklearn相关)
+- **Sklearn**
   - [**Day01**](02-Machine-Learning/sklearn相关/Day01.md)
 
-- [**吴恩达机器学习**](02-Machine-Learning/吴恩达机器学习)
+- **吴恩达机器学习**
 	- [**Day-01**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
       - 机器学习背景/定义/监督学习/无监督学习
 
@@ -154,7 +154,7 @@
 
 <b><details><summary>🤖️机器学习实战</summary></b>
 
-- [**sklearn**](05-Machine-Learning-Code/sklearn)
+- **Sklearn**
   - [**Day01**](05-Machine-Learning-Code/sklearn/Day01.md)
 
 </details>
@@ -181,8 +181,8 @@
 </details>
 
 <b><details><summary>📄剑指offer</summary></b>
--  **Day-01:二维数组中的查找**/[**代码**](10-offer/day01.cpp)/[**分析**](10-offer/day01.md)
-
+-  **Day-01:二维数组中的查找** [**代码**](10-offer/day01.cpp)/[**分析**](10-offer/day01.md)
+-  **Day-02:字符串替代** [**代码**](10-offer/day02.cpp)/[**分析**](10-offer/day02.md)
 </details>
 
 <b><details><summary>📺Leetcode</summary></b>
