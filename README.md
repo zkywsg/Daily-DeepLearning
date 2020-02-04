@@ -111,7 +111,7 @@
 <b><details><summary>💻C++</summary></b>
 
 - **C++Primer**
-  - [**第二章练习**](12-Cpp/CppPrimer/ch02)
+  - [**第二章练习**](12-Cpp/CppPrimer/ch02.md)
   - [**第三章练习**](12-Cpp/CppPrimer/ch03)
   - [**第四章练习**](12-Cpp/CppPrimer/ch04)
   - [**第五章练习**](12-Cpp/CppPrimer/ch05)
