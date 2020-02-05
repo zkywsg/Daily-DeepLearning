@@ -132,6 +132,9 @@
 - **Sklearn**
   - [**Day01**](02-Machine-Learning/sklearn相关/Day01.md)
 
+  - **机器学习基石**
+    - [**Day01**](02-Machine-Learning/机器学习基石/Day01.md)
+
 - **吴恩达机器学习**
 	- [**Day-01**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
       - 机器学习背景/定义/监督学习/无监督学习
