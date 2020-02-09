@@ -38,4 +38,3 @@
   - $m$:代表训练样本数量
   - Hypothesis:$h_\theta \left(x\right)=\theta_{0}+\theta_{1}x$
 - 合适参数$\theta_0$和$\theta_1$
-

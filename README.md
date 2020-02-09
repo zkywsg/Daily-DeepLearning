@@ -111,7 +111,7 @@
 <b><details><summary>💻C++</summary></b>
 
 - **C++Primer**
-  - [**第二章练习**](12-Cpp/CppPrimer/ch02.md)
+  - [**第二章练习**](12-Cpp/CppPrimer/ch02)
   - [**第三章练习**](12-Cpp/CppPrimer/ch03)
   - [**第四章练习**](12-Cpp/CppPrimer/ch04)
   - [**第五章练习**](12-Cpp/CppPrimer/ch05)
@@ -125,6 +125,8 @@
 <b><details><summary>🐛爬虫相关</summary></b>
 
 - [**Day01**](01-Python/spider/Day01.md)
+- [**Day02**](01-Python/spider/Day02.md)
+- [**Day03**](01-Python/spider/Day03.md)
 
 </details>
 
@@ -136,7 +138,9 @@
     - [**Day01**](02-Machine-Learning/机器学习基石/Day01.md)
 
 - **吴恩达机器学习**
-	- [**Day-01**](02-Machine-Learning/吴恩达机器学习/Day-01.md)
+	- [**Day01**](02-Machine-Learning/吴恩达机器学习/Day01.md)
+      - 机器学习背景/定义/监督学习/无监督学习
+  - [**Day02**](02-Machine-Learning/吴恩达机器学习/Day02.md)
       - 机器学习背景/定义/监督学习/无监督学习
 
 </details>
