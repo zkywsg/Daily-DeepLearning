@@ -128,3 +128,21 @@ r
 ```
 
 ### 随机数生成
+```python
+import numpy as np
+samples = np.random.normal(size=(4,4)) # 标准正态分布
+samples
+>>>array([[ 0.36362053,  0.89085972,  0.22788897, -0.81705269],
+       [-1.51958734, -0.3640249 ,  0.89746583,  0.15960883],
+       [-0.36920307, -0.75823035, -0.53177187, -2.15738747],
+       [ 1.12166099,  0.72099335,  0.10810312,  1.52644148]])
+
+from random import normalvariate
+N = 1000000
+
+%timeit samples = [normalvariate(0,1) for _ in range(N)]
+>>>999 ms ± 168 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+%timeit np.random.normal(size=N)
+>>>37.6 ms ± 11.8 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+```
