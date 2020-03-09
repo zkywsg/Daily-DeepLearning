@@ -125,23 +125,39 @@
 <b><details><summary>🐛爬虫相关</summary></b>
 
 - [**Day01**](01-Python/spider/Day01.md)
+  - urllib.request
+  - urllib.error
+  - Cookies
 - [**Day02**](01-Python/spider/Day02.md)
+  - URLError
+  - HTTPError
 - [**Day03**](01-Python/spider/Day03.md)
-
+  - urllib.parse
+  - urljoin
+  - unquote
 </details>
 
 <b><details><summary>🤖️机器学习理论</summary></b>
 - **Sklearn**
   - [**Day01**](02-Machine-Learning/sklearn相关/Day01.md)
 
-  - **机器学习基石**
-    - [**Day01**](02-Machine-Learning/机器学习基石/Day01.md)
+- **机器学习基石**
+  - [**Day01**](02-Machine-Learning/机器学习基石/Day01.md)
 
 - **吴恩达机器学习**
 	- [**Day01**](02-Machine-Learning/吴恩达机器学习/Day01.md)
       - 机器学习背景/定义/监督学习/无监督学习
   - [**Day02**](02-Machine-Learning/吴恩达机器学习/Day02.md)
       - 机器学习背景/定义/监督学习/无监督学习
+- **机器学习**
+  - [**逻辑回归**](02-Machine-Learning/逻辑回归.md)
+  - [**EM算法**](02-Machine-Learning/EM算法.md)
+  - [**集成学习**](02-Machine-Learning/集成学习入门.md)
+  - [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)
+  - [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)
+  - [**K-means**](02-Machine-Learning/K-means.md)
+  - [**K最近邻**](02-Machine-Learning/K最近邻.md)
+  - [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
 
 </details>
 
@@ -161,13 +177,27 @@
 
 - **Sklearn**
   - [**Day01**](05-Machine-Learning-Code/sklearn/Day01.md)
+    - 线性回归和逻辑回归
 
+- **numpy/pandas/matplotlib**
+  - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md)
+  - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day02.md)
+  - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day03.md)
+  - [**Day04**](05-Machine-Learning-Code/数据分析工具/Day04.md)
+  - [**Day05**](05-Machine-Learning-Code/数据分析工具/Day05.md)
 </details>
 
 <b><details><summary>🏊‍♀️ 深度学习实战</summary></b>
 
-- 更新中
+- **tensorflow**
+  - [**helloword**](06-Deep_Learning_Code/Tensorflow/Helloworld.md)
+  - [**Basic**](06-Deep_Learning_Code/Tensorflow/Basic.md)
+  - [**linear_regression**](06-Deep_Learning_Code/Tensorflow/linear_regression.md)
+  - [**logistic_regression**](06-Deep_Learning_Code/Tensorflow/logistic_regression.md)
+  - [**world2vec**](06-Deep_Learning_Code/Tensorflow/world2vec.md)
 
+- **pytorch**
+  - [**pytorch**](06-Deep_Learning_Code/pytorch/gettingstart.md)
 </details>
 
 <b><details><summary>🏠经典教程及解析</summary></b>
