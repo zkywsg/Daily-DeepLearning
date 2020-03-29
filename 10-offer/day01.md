@@ -38,3 +38,21 @@
 - 这道题就讲解结束了。如果觉得我讲的还可以就给我点个赞吧，有任何的错误也可以通过评论和私信告诉我，大家一起学习进步，视频中的资料都会在评论区中给出，那我们下一期再见吧。
 ![](剑指offer-1.jpg)
 ![](剑指offer-2.jpg)
+
+```python
+class Solution:
+    # array 二维列表
+    def Find(self, target, array):
+        xend = len(array)-1
+        yend = len(array[0])-1
+        x = 0
+        while x <= xend and yend >= 0:
+            if array[x][yend] == target:
+                return True
+            elif array[x][yend] > target:
+                yend -= 1
+            else:
+                x += 1
+        return False
+```
+

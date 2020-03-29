@@ -138,26 +138,16 @@
 </details>
 
 <b><details><summary>🤖️机器学习理论</summary></b>
-- **Sklearn**
-  - [**Day01**](02-Machine-Learning/sklearn相关/Day01.md)
 
-- **机器学习基石**
-  - [**Day01**](02-Machine-Learning/机器学习基石/Day01.md)
-
-- **吴恩达机器学习**
-	- [**Day01**](02-Machine-Learning/吴恩达机器学习/Day01.md)
-      - 机器学习背景/定义/监督学习/无监督学习
-  - [**Day02**](02-Machine-Learning/吴恩达机器学习/Day02.md)
-      - 机器学习背景/定义/监督学习/无监督学习
-- **机器学习**
-  - [**逻辑回归**](02-Machine-Learning/逻辑回归.md)
-  - [**EM算法**](02-Machine-Learning/EM算法.md)
-  - [**集成学习**](02-Machine-Learning/集成学习入门.md)
-  - [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)
-  - [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)
-  - [**K-means**](02-Machine-Learning/K-means.md)
-  - [**K最近邻**](02-Machine-Learning/K最近邻.md)
-  - [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
+- [**逻辑回归**](02-Machine-Learning/逻辑回归.md)
+- [**EM算法**](02-Machine-Learning/EM算法.md)
+- [**集成学习**](02-Machine-Learning/集成学习入门.md)
+- [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)
+- [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)
+- [**K-means**](02-Machine-Learning/K-means.md)
+- [**K最近邻**](02-Machine-Learning/K最近邻.md)
+- [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
+- [**cross validatation**](02-Machine-Learning/StatQuest/Cross Validataion.md)
 
 </details>
 
@@ -176,15 +166,23 @@
 <b><details><summary>🤖️机器学习实战</summary></b>
 
 - **Sklearn**
-  - [**Day01**](05-Machine-Learning-Code/sklearn/Day01.md)
-    - 线性回归和逻辑回归
+  - [**Day01**](05-Machine-Learning-Code/sklearn/preprocessing)
+    - EncodingFeatures/MinMaxSaler/Normaliztion/Standardization
 
-- **numpy/pandas/matplotlib**
+- **numpy**
   - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md)
   - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day02.md)
   - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day03.md)
-  - [**Day04**](05-Machine-Learning-Code/数据分析工具/Day04.md)
-  - [**Day05**](05-Machine-Learning-Code/数据分析工具/Day05.md)
+
+- **pandas**
+  - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day04.md)
+  - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day05.md)
+  - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day06.ipynb)
+  - [**Day04**](05-Machine-Learning-Code/数据分析工具/Day07.ipynb)
+
+- **matplotlib**
+  - [**Day01**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)
+    - plot and custimizing
 </details>
 
 <b><details><summary>🏊‍♀️ 深度学习实战</summary></b>
@@ -195,9 +193,12 @@
   - [**linear_regression**](06-Deep_Learning_Code/Tensorflow/linear_regression.md)
   - [**logistic_regression**](06-Deep_Learning_Code/Tensorflow/logistic_regression.md)
   - [**world2vec**](06-Deep_Learning_Code/Tensorflow/world2vec.md)
-
+  - [**基本图像分类**](06-Deep_Learning_Code/Tensorflow/基本图像分类.ipynb)
+  - [**TFHub文本分类**](06-Deep_Learning_Code/Tensorflow/TFHub文本分类.ipynb)
 - **pytorch**
-  - [**pytorch**](06-Deep_Learning_Code/pytorch/gettingstart.md)
+  - [**start**](06-Deep_Learning_Code/pytorch/gettingstart.md)
+  - [**autograd**](06-Deep_Learning_Code/pytorch/atuograd.ipynb)
+  - [**NeuralNetworks**](06-Deep_Learning_Code/pytorch/NeuralNetworks.ipynb)
 </details>
 
 <b><details><summary>🏠经典教程及解析</summary></b>
@@ -216,8 +217,22 @@
 </details>
 
 <b><details><summary>📄剑指offer</summary></b>
--  **Day-01:二维数组中的查找** [**代码**](10-offer/day01.cpp)/[**分析**](10-offer/day01.md)
--  **Day-02:字符串替代** [**代码**](10-offer/day02.cpp)/[**分析**](10-offer/day02.md)
+-  [**Day01:二维数组中的查找**](10-offer/day01.md)
+-  [**Day02:字符串替代**](10-offer/day02.md)
+-  [**Day03**](10-offer/day03.md)
+-  [**Day04**](10-offer/day04.md)
+-  [**Day05**](10-offer/day05.md)
+-  [**Day06**](10-offer/day06.md)
+-  [**Day07**](10-offer/day07.md)
+-  [**Day08**](10-offer/day08.md)
+-  [**Day09**](10-offer/day09.md)
+-  [**Day10**](10-offer/day10.md)
+-  [**Day11**](10-offer/day11.md)
+-  [**Day12**](10-offer/day12.md)
+-  [**Day13**](10-offer/day13.md)
+-  [**Day14**](10-offer/day14.md)
+-  [**Day15**](10-offer/day15.md)
+
 </details>
 
 <b><details><summary>📺Leetcode</summary></b>
@@ -237,9 +252,17 @@
 
 </details>
 
+<b><details><summary>🏠Linux</summary></b>
+
+- [**Day01**](15-Linux/day01.md)
+- [**Day02**](15-Linux/day02.md)
+- [**Day03**](15-Linux/day03.md)
+
+</details>
+
 <b><details><summary>🌲我的自媒体账号</summary></b>
 
 - [**B站**](https://space.bilibili.com/97413841)
-- [**Youtube**](https://www.youtube.com/channel/UCve10d987xyaCT4QRBLfyPQ)
+- 公众号：深度学习快乐水
 
 </details>
