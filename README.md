@@ -108,20 +108,6 @@
   - aiohttp
 </details>
 
-<b><details><summary>💻C++</summary></b>
-
-- **C++Primer**
-  - [**第二章练习**](12-Cpp/CppPrimer/ch02)
-  - [**第三章练习**](12-Cpp/CppPrimer/ch03)
-  - [**第四章练习**](12-Cpp/CppPrimer/ch04)
-  - [**第五章练习**](12-Cpp/CppPrimer/ch05)
-  - [**第六章练习**](12-Cpp/CppPrimer/ch06)
-  - [**第七章练习**](12-Cpp/CppPrimer/ch07)
-  - [**第八章练习**](12-Cpp/CppPrimer/ch08)
-  - [**第九章练习**](12-Cpp/CppPrimer/ch09)
-
-</details>
-
 <b><details><summary>🐛爬虫相关</summary></b>
 
 - [**Day01**](01-Python/spider/Day01.md)
