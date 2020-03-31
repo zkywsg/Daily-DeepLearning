@@ -1,4 +1,12 @@
-# **Learn Deep Learning With Me**
+# **Daily-DearnLearning**
+
+❌考研二战生❌家庭原因弃考❌找工作中❌数据挖掘/数据分析/运营（数据方向）/NLP等❌邮箱：lauzanhing@gmail.com
+
+<b><details><summary>🌲我的自媒体账号</summary></b>
+
+- 公众号：深度学习快乐水
+
+</details>
 
 <b><details><summary>💻计算机基础课</summary></b>
 
@@ -108,21 +116,6 @@
   - aiohttp
 </details>
 
-<b><details><summary>🐛爬虫相关</summary></b>
-
-- [**Day01**](01-Python/spider/Day01.md)
-  - urllib.request
-  - urllib.error
-  - Cookies
-- [**Day02**](01-Python/spider/Day02.md)
-  - URLError
-  - HTTPError
-- [**Day03**](01-Python/spider/Day03.md)
-  - urllib.parse
-  - urljoin
-  - unquote
-</details>
-
 <b><details><summary>🤖️机器学习理论</summary></b>
 
 - [**逻辑回归**](02-Machine-Learning/逻辑回归.md)
@@ -133,7 +126,7 @@
 - [**K-means**](02-Machine-Learning/K-means.md)
 - [**K最近邻**](02-Machine-Learning/K最近邻.md)
 - [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
-- [**cross validatation**](02-Machine-Learning/StatQuest/Cross Validataion.md)
+- [**cross validatation**](02-Machine-Learning\StatQuest\Cross Validataion.md)
 
 </details>
 
@@ -150,10 +143,6 @@
 </details>
 
 <b><details><summary>🤖️机器学习实战</summary></b>
-
-- **Sklearn**
-  - [**Day01**](05-Machine-Learning-Code/sklearn/preprocessing)
-    - EncodingFeatures/MinMaxSaler/Normaliztion/Standardization
 
 - **numpy**
   - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md)
@@ -187,6 +176,13 @@
   - [**NeuralNetworks**](06-Deep_Learning_Code/pytorch/NeuralNetworks.ipynb)
 </details>
 
+<b><details><summary>💻大数据相关</summary></b>
+
+- Hadoop
+- Hive
+
+</details>
+
 <b><details><summary>🏠经典教程及解析</summary></b>
 
 - **CS230:深度学习**
@@ -196,13 +192,8 @@
 
 </details>
 
-<b><details><summary>📖论文</summary></b>
-
-- 更新中
-
-</details>
-
 <b><details><summary>📄剑指offer</summary></b>
+
 -  [**Day01:二维数组中的查找**](10-offer/day01.md)
 -  [**Day02:字符串替代**](10-offer/day02.md)
 -  [**Day03**](10-offer/day03.md)
@@ -243,12 +234,5 @@
 - [**Day01**](15-Linux/day01.md)
 - [**Day02**](15-Linux/day02.md)
 - [**Day03**](15-Linux/day03.md)
-
-</details>
-
-<b><details><summary>🌲我的自媒体账号</summary></b>
-
-- [**B站**](https://space.bilibili.com/97413841)
-- 公众号：深度学习快乐水
 
 </details>
