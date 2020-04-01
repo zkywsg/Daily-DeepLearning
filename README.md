@@ -126,13 +126,13 @@
 - [**K-means**](02-Machine-Learning/K-means.md)
 - [**K最近邻**](02-Machine-Learning/K最近邻.md)
 - [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
-- [**cross validatation**](02-Machine-Learning\StatQuest\Cross Validataion.md)
+- [**cross validatation**](02-Machine-Learning\StatQuest\Cross_Validataion.md)
 
 </details>
 
 <b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
-- 更新中
+- [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw)
 
 </details>
 
