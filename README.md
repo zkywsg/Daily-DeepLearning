@@ -207,7 +207,7 @@
 - **matplotlib**
   
   - [**直线图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)
-- [**bar图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb)
+	- [**bar图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb)
   - [**饼状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb)
   - [**stack图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb)
   - [**直线填充**](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb)
