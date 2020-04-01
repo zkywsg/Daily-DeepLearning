@@ -133,6 +133,8 @@
 <b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
 - [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw)
+- [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ)
+- [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ)
 
 </details>
 
