@@ -221,17 +221,17 @@
 <b><details><summary>🏊‍♀️ 深度学习实战</summary></b>
 
 - **tensorflow**
-  - [**helloword**](06-Deep_Learning_Code/Tensorflow/Helloworld.md)
-  - [**Basic**](06-Deep_Learning_Code/Tensorflow/Basic.md)
-  - [**linear_regression**](06-Deep_Learning_Code/Tensorflow/linear_regression.md)
-  - [**logistic_regression**](06-Deep_Learning_Code/Tensorflow/logistic_regression.md)
-  - [**world2vec**](06-Deep_Learning_Code/Tensorflow/world2vec.md)
-  - [**基本图像分类**](06-Deep_Learning_Code/Tensorflow/基本图像分类.ipynb)
-  - [**TFHub文本分类**](06-Deep_Learning_Code/Tensorflow/TFHub文本分类.ipynb)
+  - [**helloword**](06-Deep-Learning-Code/Tensorflow/Helloworld.md)
+  - [**Basic**](06-Deep-Learning-Code/Tensorflow/Basic.md)
+  - [**linear_regression**](06-Deep-Learning-Code/Tensorflow/linear_regression.md)
+  - [**logistic_regression**](06-Deep-Learning-Code/Tensorflow/logistic_regression.md)
+  - [**world2vec**](006-Deep-Learning-Code/Tensorflow/world2vec.md)
+  - [**基本图像分类**](06-Deep-Learning-Code/Tensorflow/基本图像分类.ipynb)
+  - [**TFHub文本分类**](06-Deep-Learning-Code/Tensorflow/TFHub文本分类.ipynb)
 - **pytorch**
-  - [**start**](06-Deep_Learning_Code/pytorch/gettingstart.md)
-  - [**autograd**](06-Deep_Learning_Code/pytorch/atuograd.ipynb)
-  - [**NeuralNetworks**](06-Deep_Learning_Code/pytorch/NeuralNetworks.ipynb)
+  - [**start**](06-Deep-Learning-Code/pytorch/gettingstart.md)
+  - [**autograd**](06-Deep-Learning-Code/pytorch/atuograd.ipynb)
+  - [**NeuralNetworks**](06-Deep-Learning-Code/pytorch/NeuralNetworks.ipynb)
 </details>
 
 <b><details><summary>💻大数据相关</summary></b>
