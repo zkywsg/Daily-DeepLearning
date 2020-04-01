@@ -125,14 +125,33 @@
 - [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)
 - [**K-means**](02-Machine-Learning/K-means.md)
 - [**K最近邻**](02-Machine-Learning/K最近邻.md)
+- [**贝叶斯**](https://mp.weixin.qq.com/s/jfQNQ0mMe7a-k3IQNL_YAg)
 - [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
 - [**cross validatation**](02-Machine-Learning\StatQuest\Cross_Validataion.md)
+- [**Gradient Boosting**](https://mp.weixin.qq.com/s/0OiVlKOhaXUgHF9SlbHgpA)
+- [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw)
+- [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ)
+- [**XgBoost**](https://mp.weixin.qq.com/s/HDEKnIufbW8xQcOgHaXlZw)
+- [**GBDT分类**](https://mp.weixin.qq.com/s/-UmOhpktgRaOF7tT2-5nsQ)
+- [**GBDT回归**](https://mp.weixin.qq.com/s/zPGcY41HNeebg9Si-vt3rg)
+- [**LightGBM**](https://mp.weixin.qq.com/s/zejkifZnYXAfgTRrkMaEww)
+- [**CatBoost**](https://mp.weixin.qq.com/s/xloTLr5NJBgBspMQtxPoFA)
 
 </details>
 
 <b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
 - [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw)
+- [**BatchNorm**](https://mp.weixin.qq.com/s/o_Gwa11BauT60U7S1--3fQ)
+- [**梯度爆炸和消失**](https://mp.weixin.qq.com/s/6xHC5woJND14bozsBNaaXQ)
+- [**Dropout**](https://mp.weixin.qq.com/s/3nKXlu3jy-0sNgAHxaxGmQ)
+- [**CNN**](https://mp.weixin.qq.com/s/1om-0pg9uKU05yjfPA9fUg)
+- [**RNN**](https://mp.weixin.qq.com/s/IPyI2Ee6Kzyv3wFAUN7NOQ)
+- [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg)
+- [**Attention**](https://mp.weixin.qq.com/s/3911D_FkTWrtKwBo30vENg)
+- [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g)
+- [**seft-Attention/Transformer**](https://mp.weixin.qq.com/s/lUqpCae3TPkZlgT7gUatpg)
+- [**Transformer/BERT**](https://mp.weixin.qq.com/s/kI_k_plZbRzmdeXxt2_2WA)
 - [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ)
 - [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ)
 
@@ -140,7 +159,11 @@
 
 <b><details><summary>🀄️NLP相关理论</summary></b>
 
-- 更新中
+- [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw)
+- [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg)
+- [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g)
+- [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ)
+- [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ)
 
 </details>
 
@@ -148,19 +171,52 @@
 
 - **numpy**
   - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md)
+    - array/dtype/zeros/ones/empty
+    - Astype/数组和标量
+  - 索引和切片/布尔型索引
   - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day02.md)
+    - 花式索引/数组转置和轴对换
+    - 元素数组函数
+    - 数组进行数据处理
+    - 将条件逻辑表述为数组运算
   - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day03.md)
-
+    - 排序/保存问题/存取文本文件
+    - 线性代数/随机数生成
+  
 - **pandas**
-  - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day04.md)
-  - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day05.md)
-  - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day06.ipynb)
-  - [**Day04**](05-Machine-Learning-Code/数据分析工具/Day07.ipynb)
-
+  - [**加载数据**](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb)
+    - read_csv/info/set_option
+    - Head/tail
+  - [**行列选择**](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb)
+  - df.columns/df.iloc/df.loc
+    - df.value_counts
+  - [**索引**](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb)
+    - df.set_index/df.reset_index
+    - Df.sort_index/ascending
+    - 
+  - [**过滤器**](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb)
+    - df[filt]/df.isin
+    - Str.contain/
+  - [**更新行列**](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb)
+  - [**添加行列**](05-Machine-Learning-Code/数据分析工具/Pandas/6_Add_Remove_Rows.ipynb)
+  - [**数据排序**](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb)
+  - [**数据聚合**](05-Machine-Learning-Code/数据分析工具/Pandas/8_Grouping_Aggregating.ipynb)
+  - [**清洗数据**](05-Machine-Learning-Code/数据分析工具/Pandas/9_Cleaning_Data.ipynb)
+  - [**时间数据**](05-Machine-Learning-Code/数据分析工具/Pandas/10_WorkingWithDatesAndTimeSertesData.ipynb)
+  
 - **matplotlib**
-  - [**Day01**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)
-    - plot and custimizing
-</details>
+  
+  - [**直线图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)
+- [**bar图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb)
+  - [**饼状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb)
+  - [**stack图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb)
+  - [**直线填充**](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb)
+  - [**hist图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/6_histograms.ipynb)
+  - [**点状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/7_Scatter.ipynb)
+  - [**时序图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/8_Time_Series_Data.ipynb)
+  - [**子图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/10_subplot.ipynb)
+  
+  </details>
 
 <b><details><summary>🏊‍♀️ 深度学习实战</summary></b>
 
@@ -181,6 +237,12 @@
 <b><details><summary>💻大数据相关</summary></b>
 
 - Hadoop
+  - [**介绍**](12-BigData/Hadoop/1_介绍.md)
+  - [**集群搭建01**](12-BigData/Hadoop/2_集群搭建01.md)
+  - [**集群搭建02**](12-BigData/Hadoop/3_集群搭建02.md)
+  - [**集群搭建03**](12-BigData/Hadoop/4_集群搭建03.md)
+  - [**HDFS01**](12-BigData/Hadoop/5_HDFS01.md)
+  - [**HDFS02**](12-BigData/Hadoop/6_HDFS02.md)
 - Hive
 
 </details>
