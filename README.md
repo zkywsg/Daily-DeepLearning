@@ -1,6 +1,6 @@
 # **Daily-DearnLearning**
 
-🌟考研二战生🌟家庭原因弃考🌟找工作中🌟数据挖掘/数据分析/运营（数据方向）/NLP等🌟邮箱：lauzanhing@gmail.com
+🌟考研二战生🌟家庭原因弃考🌟找工作中🌟邮箱：lauzanhing@gmail.com
 
 <b><details><summary>🌲我的自媒体账号</summary></b>
 
