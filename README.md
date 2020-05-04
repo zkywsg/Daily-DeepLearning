@@ -1,7 +1,5 @@
 # **Daily-DearnLearning**
 
-🌟考研二战生🌟家庭原因弃考🌟找工作中🌟邮箱：lauzanhing@gmail.com
-
 <b><details><summary>🌲我的自媒体账号</summary></b>
 
 - 公众号：深度学习快乐水
