@@ -2,7 +2,7 @@
 
 <b><details><summary>🌲我的自媒体账号</summary></b>
 
-- 公众号：深度学习快乐水
+- 知乎/b站/公众号：再考研我是狗
 
 </details>
 
