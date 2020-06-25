@@ -1,1 +1,0 @@
-- 换源：pip3 install sklearn -i https://pypi.tuna.tsinghua.edu.cn/simple
