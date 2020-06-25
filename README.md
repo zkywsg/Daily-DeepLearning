@@ -1,43 +1,45 @@
 # **Daily-DearnLearning**
 
+数据挖掘/数据分析/爬虫/NLP🌟邮箱：lauzanhing@gmail.com
+
 <b><details><summary>🌲我的自媒体账号</summary></b>
 
-- 知乎/b站/公众号：再考研我是狗
+- 公众号/b站/知乎:再考研我是狗
 
 </details>
 
 <b><details><summary>💻计算机基础课</summary></b>
 
-- [**数据结构**](09-BaseClass/Ds)
-  - [**01基本概念和算法评价**](09-BaseClass/Ds/01基本概念和算法评价.md)
-  - [**02线性表**](09-BaseClass/Ds/02线性表.md)
-  - [**03栈和队列**](09-BaseClass/Ds/03栈和队列.md)
-  - [**04树和二叉树**](09-BaseClass/Ds/04树和二叉树.md)
-  - [**05图**](09-BaseClass/Ds/05图.md)
-  - [**06查找**](09-BaseClass/Ds/06查找.md)
-  - [**07排序**](09-BaseClass/Ds/07排序.md)
+- [**数据结构**](07-BaseClass/Ds)
+  - [**01基本概念和算法评价**](07-BaseClass/Ds/01基本概念和算法评价.md)
+  - [**02线性表**](07-BaseClass/Ds/02线性表.md)
+  - [**03栈和队列**](07-BaseClass/Ds/03栈和队列.md)
+  - [**04树和二叉树**](07-BaseClass/Ds/04树和二叉树.md)
+  - [**05图**](07-BaseClass/Ds/05图.md)
+  - [**06查找**](07-BaseClass/Ds/06查找.md)
+  - [**07排序**](07-BaseClass/Ds/07排序.md)
 
 
-- [**操作系统**](09-BaseClass/Os)
-  - [**01操作系统的基本概念**](09-BaseClass/Os/01操作系统的基本概念.md)
-  - [**02操作系统的发展和分类**](09-BaseClass/Os/02操作系统的发展和分类.md)
-  - [**03操作系统的运行环境**](09-BaseClass/Os/03操作系统的运行环境.md)
-  - [**04进程和线程**](09-BaseClass/Os/04进程与线程.md)
-  - [**05处理机调度**](09-BaseClass/Os/05处理机调度.md)
-  - [**06进程同步**](09-BaseClass/Os/06进程同步.md)
-  - [**07死锁**](09-BaseClass/Os/07死锁.md)
-  - [**08内容管理概念**](09-BaseClass/Os/08内容管理概念.md)
-  - [**09虚拟内存管理**](09-BaseClass/Os/09虚拟内存管理.md)
-  - [**10文件系统基础**](09-BaseClass/Os/05处理机调度.md)
+- [**操作系统**](07-BaseClass/Os)
+  - [**01操作系统的基本概念**](07-BaseClass/Os/01操作系统的基本概念.md)
+  - [**02操作系统的发展和分类**](07-BaseClass/Os/02操作系统的发展和分类.md)
+  - [**03操作系统的运行环境**](07-BaseClass/Os/03操作系统的运行环境.md)
+  - [**04进程和线程**](07-BaseClass/Os/04进程与线程.md)
+  - [**05处理机调度**](07-BaseClass/Os/05处理机调度.md)
+  - [**06进程同步**](07-BaseClass/Os/06进程同步.md)
+  - [**07死锁**](07-BaseClass/Os/07死锁.md)
+  - [**08内容管理概念**](07-BaseClass/Os/08内容管理概念.md)
+  - [**09虚拟内存管理**](07-BaseClass/Os/09虚拟内存管理.md)
+  - [**10文件系统基础**](07-BaseClass/Os/05处理机调度.md)
 
-- [**计算机网络**](09-BaseClass/Cn)
-  - [**01计算机网络概述**](09-BaseClass/Cn/01计算机网络概述.md)
-  - [**02计算机网络结构体系**](09-BaseClass/Cn/02计算机网络结构体系.md)
-  - [**03通信基础**](09-BaseClass/Cn/03通信基础.md)
-  - [**04奈氏准则和香农定理**](09-BaseClass/Cn/04奈氏准则和香农定理.md)
-  - [**05传输介质**](09-BaseClass/Cn/05传输介质.md)
-  - [**06物理层设备**](09-BaseClass/Cn/06物理层设备.md)
-  - [**07数据链路层的功能**](09-BaseClass/Cn/07数据链路层的功能.md)
+- [**计算机网络**](07-BaseClass/Cn)
+  - [**01计算机网络概述**](07-BaseClass/Cn/01计算机网络概述.md)
+  - [**02计算机网络结构体系**](07-BaseClass/Cn/02计算机网络结构体系.md)
+  - [**03通信基础**](07-BaseClass/Cn/03通信基础.md)
+  - [**04奈氏准则和香农定理**](07-BaseClass/Cn/04奈氏准则和香农定理.md)
+  - [**05传输介质**](07-BaseClass/Cn/05传输介质.md)
+  - [**06物理层设备**](07-BaseClass/Cn/06物理层设备.md)
+  - [**07数据链路层的功能**](07-BaseClass/Cn/07数据链路层的功能.md)
 </details>
 
 <b><details><summary>🐍Python</summary></b>
@@ -125,7 +127,6 @@
 - [**K最近邻**](02-Machine-Learning/K最近邻.md)
 - [**贝叶斯**](https://mp.weixin.qq.com/s/jfQNQ0mMe7a-k3IQNL_YAg)
 - [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
-- [**cross validatation**](02-Machine-Learning\StatQuest\Cross_Validataion.md)
 - [**Gradient Boosting**](https://mp.weixin.qq.com/s/0OiVlKOhaXUgHF9SlbHgpA)
 - [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw)
 - [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ)
@@ -169,32 +170,14 @@
 
 - **numpy**
   - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md)
-    - array/dtype/zeros/ones/empty
-    - Astype/数组和标量
-  - 索引和切片/布尔型索引
   - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day02.md)
-    - 花式索引/数组转置和轴对换
-    - 元素数组函数
-    - 数组进行数据处理
-    - 将条件逻辑表述为数组运算
   - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day03.md)
-    - 排序/保存问题/存取文本文件
-    - 线性代数/随机数生成
   
 - **pandas**
   - [**加载数据**](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb)
-    - read_csv/info/set_option
-    - Head/tail
   - [**行列选择**](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb)
-  - df.columns/df.iloc/df.loc
-    - df.value_counts
   - [**索引**](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb)
-    - df.set_index/df.reset_index
-    - Df.sort_index/ascending
-    - 
   - [**过滤器**](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb)
-    - df[filt]/df.isin
-    - Str.contain/
   - [**更新行列**](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb)
   - [**添加行列**](05-Machine-Learning-Code/数据分析工具/Pandas/6_Add_Remove_Rows.ipynb)
   - [**数据排序**](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb)
@@ -235,42 +218,35 @@
 <b><details><summary>💻大数据相关</summary></b>
 
 - Hadoop
-  - [**介绍**](12-BigData/Hadoop/1_介绍.md)
-  - [**集群搭建01**](12-BigData/Hadoop/2_集群搭建01.md)
-  - [**集群搭建02**](12-BigData/Hadoop/3_集群搭建02.md)
-  - [**集群搭建03**](12-BigData/Hadoop/4_集群搭建03.md)
-  - [**HDFS01**](12-BigData/Hadoop/5_HDFS01.md)
-  - [**HDFS02**](12-BigData/Hadoop/6_HDFS02.md)
+  - [**介绍**](09-BigData/Hadoop/1_介绍.md)
+  - [**集群搭建01**](09-BigData/Hadoop/2_集群搭建01.md)
+  - [**集群搭建02**](09-BigData/Hadoop/3_集群搭建02.md)
+  - [**集群搭建03**](09-BigData/Hadoop/4_集群搭建03.md)
+  - [**HDFS01**](09-BigData/Hadoop/5_HDFS01.md)
+  - [**HDFS02**](09-BigData/Hadoop/6_HDFS02.md)
 - Hive
 
 </details>
 
-<b><details><summary>🏠经典教程及解析</summary></b>
 
-- **CS230:深度学习**
-  - [**YouTube链接**](https://www.youtube.com/watch?v=PySo_6S4ZAg&list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
-  - [**Bilibili链接**](https://www.bilibili.com/video/av59184396/)
-  - [**相关课件**](http://cs230.stanford.edu/)
-
-</details>
 
 <b><details><summary>📄剑指offer</summary></b>
 
--  [**Day01:二维数组中的查找**](10-offer/day01.md)
--  [**Day02:字符串替代**](10-offer/day02.md)
--  [**Day03**](10-offer/day03.md)
--  [**Day04**](10-offer/day04.md)
--  [**Day05**](10-offer/day05.md)
--  [**Day06**](10-offer/day06.md)
--  [**Day07**](10-offer/day07.md)
--  [**Day08**](10-offer/day08.md)
--  [**Day09**](10-offer/day09.md)
--  [**Day10**](10-offer/day10.md)
--  [**Day11**](10-offer/day11.md)
--  [**Day12**](10-offer/day12.md)
--  [**Day13**](10-offer/day13.md)
--  [**Day14**](10-offer/day14.md)
--  [**Day15**](10-offer/day15.md)
+-  [**Day01:二维数组中的查找**](08-offer/day01.md)
+-  [**Day02:字符串替代**](08-offer/day02.md)
+-  [**Day03**](08-offer/day03.md)
+-  [**Day04**](08-offer/day04.md)
+-  [**Day05**](08-offer/day05.md)
+-  [**Day06**](08-offer/day06.md)
+-  [**Day07**](08-offer/day07.md)
+-  [**Day08**](08-offer/day08.md)
+-  [**Day09**](08-offer/day09.md)
+-  [**Day10**](08-offer/day10.md)
+-  [**Day11**](08-offer/day11.md)
+-  [**Day12**](08-offer/day12.md)
+-  [**Day13**](08-offer/day13.md)
+-  [**Day14**](08-offer/day14.md)
+-  [**Day15**](08-offer/day15.md)
 
 </details>
 
@@ -280,21 +256,9 @@
 
 </details>
 
-<b><details><summary>📖参看文献</summary></b>
-
-- **参考书籍**
-	- [**Python编程从入门到实践**](https://item.jd.com/11993134.html)
-
-
-- **参考网站**
-	- [**廖雪峰的Python教程**](https://www.liaoxuefeng.com/wiki/1016959663602400)
-
-</details>
 
 <b><details><summary>🏠Linux</summary></b>
 
-- [**Day01**](15-Linux/day01.md)
-- [**Day02**](15-Linux/day02.md)
-- [**Day03**](15-Linux/day03.md)
+- 更新中
 
 </details>
