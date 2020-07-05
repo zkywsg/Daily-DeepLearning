@@ -4,7 +4,7 @@
 
 <b><details><summary>🌲我的自媒体账号</summary></b>
 
-- 公众号/b站/知乎:再考研我是狗
+- 公众号/b站/知乎:zkywsg
 
 </details>
 
