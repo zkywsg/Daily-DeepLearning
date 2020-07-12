@@ -40,6 +40,15 @@
 
 <b><details><summary>🐍Python</summary></b>
 - 内容来源：廖雪峰的官方教程/菜鸟教程/CSDN/github/《流畅的Python》
+
+| [**Day01**](01-Python/Day01.md) | [**Day02**](01-Python/Day02.md) | [**Day03**](01-Python/Day03.md) | [**Day04**](01-Python/Day04.md) |
+| ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- |
+| [**Day05**](01-Python/Day05.md) | [**Day06**](01-Python/Day06.md) | [**Day07**](01-Python/Day07.md) | [**Day08**](01-Python/Day08.md) |
+| [**Day09**](01-Python/Day09.md) | [**Day10**](01-Python/Day10.md) | [**Day11**](01-Python/Day11.md) | [**Day12**](01-Python/Day12.md) |
+| [**Day13**](01-Python/Day13.md) | [**Day14**](01-Python/Day14.md) |                                 |                                 |
+
+
+
 - [**Day01**](01-Python/Day01.md)
 	- hello world
 	- 变量(命名/变量赋值/多个变量赋值)
@@ -69,42 +78,35 @@
   - 返回函数(函数作为返回值/闭包)
   - 匿名函数
   - 装饰器
-
 - [**Day08**](01-Python/Day08.md)
   - 类和实例(基本定义/创建实例/绑定属性/\__init__/数据封装)
   - 限制访问
   - 继承和多态(继承/子类的特性/理解多态)
   - 实例属性和类属性
-
 - [**Day09**](01-Python/Day09.md)
   - 使用\__slots__
   - @property
   - 多重继承
   - 定制类(\__str__/\__iter__/\__getitem__/\__getattr__/\__call__)
   - 枚举类
-
 - [**Day10**](01-Python/Day10.md)
   - 错误处理(try/except/finally/调用栈/记录错误/抛出错误)
   - 调试(print/assert/logging/pdb)
   - 文档测试
   - 单元测试
-
 - [**Day11**](01-Python/Day11.md)
   - 文件读写(读文件/字符编写/写文件)
   - StringIO和BytesIO
   - 操作文件和目录
   - 序列化
-
 - [**Day12**](01-Python/Day12.md)
   - 多进程(多进程的定义/multiprocessing/subprocess/子进程输入/进程间通信)
   - 多线程(threading/Lock/threading.lock)
   - ThreadLocal
-
 - [**Day13**](01-Python/Day13.md)
   - datetime(获得当前日期和时间/获得指定日期和时间/timestamp/str转换为datetime/本地时间和UTC时间/时区转换)
   - collections(namedtuple/deque/defaultdict/OrderedDict/ChainMap/counter)
   - struct
-
 - [**Day14**](01-Python/Day14.md)
   - 协程
   - asyncio
