@@ -6,7 +6,7 @@
 
 <b><details><summary>💻计算机基础课</summary></b>
 
-[**数据结构**](07-BaseClass/Ds)
+- [**数据结构**](07-BaseClass/Ds)
 
 | [**01基本概念和算法评价**](07-BaseClass/Ds/01基本概念和算法评价.md) | [**02线性表**](07-BaseClass/Ds/02线性表.md) | [**03栈和队列**](07-BaseClass/Ds/03栈和队列.md) | [**04树和二叉树**](07-BaseClass/Ds/04树和二叉树.md) |
 | ------------------------------------------------------------ | ------------------------------------------- | ----------------------------------------------- | --------------------------------------------------- |
@@ -14,16 +14,16 @@
 
 
 
-[**操作系统**](07-BaseClass/Os)
+- [**操作系统**](07-BaseClass/Os)
 
-| [**01操作系统的基本概念**](07-BaseClass/Os/01操作系统的基本概念.md) | [**02操作系统的发展和分类**](07-BaseClass/Os/02操作系统的发展和分类.md) | 03操作系统的运行环境                    | [**04进程和线程**](07-BaseClass/Os/04进程与线程.md)     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------- |
-| [**05处理机调度**](07-BaseClass/Os/05处理机调度.md)          | [**06进程同步**](07-BaseClass/Os/06进程同步.md)              | [**07死锁**](07-BaseClass/Os/07死锁.md) | [**08内容管理概念**](07-BaseClass/Os/08内容管理概念.md) |
-| [**09虚拟内存管理**](07-BaseClass/Os/09虚拟内存管理.md)      | [**10文件系统基础**](07-BaseClass/Os/05处理机调度.md)        |                                         |                                                         |
+| [**01操作系统的基本概念**](07-BaseClass/Os/01操作系统的基本概念.md) | [**02操作系统的发展和分类**](07-BaseClass/Os/02操作系统的发展和分类.md) | [**03操作系统的运行环境**](07-BaseClass/Os/03操作系统的运行环境.md) | [**04进程和线程**](07-BaseClass/Os/04进程与线程.md)     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------- |
+| [**05处理机调度**](07-BaseClass/Os/05处理机调度.md)          | [**06进程同步**](07-BaseClass/Os/06进程同步.md)              | [**07死锁**](07-BaseClass/Os/07死锁.md)                      | [**08内容管理概念**](07-BaseClass/Os/08内容管理概念.md) |
+| [**09虚拟内存管理**](07-BaseClass/Os/09虚拟内存管理.md)      | [**10文件系统基础**](07-BaseClass/Os/05处理机调度.md)        |                                                              |                                                         |
 
 
 
-[**计算机网络**](07-BaseClass/Cn)
+- [**计算机网络**](07-BaseClass/Cn)
 
 | [**01计算机网络概述**](07-BaseClass/Cn/01计算机网络概述.md) | [**02计算机网络结构体系**](07-BaseClass/Cn/02计算机网络结构体系.md) | [**03通信基础**](07-BaseClass/Cn/03通信基础.md)              | [**04奈氏准则和香农定理**](07-BaseClass/Cn/04奈氏准则和香农定理.md) |
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -33,7 +33,7 @@
 
 <b><details><summary>🐍Python</summary></b>
 
-内容来源：廖雪峰的官方教程/菜鸟教程/CSDN/github/《流畅的Python》
+- 内容来源：廖雪峰的官方教程/菜鸟教程/CSDN/github/《流畅的Python》
 
 | [**Day01**](01-Python/Day01.md):变量/字符串/数字和运算符     | [**Day02**](01-Python/Day02.md):列表/元组                    | [**Day03**](01-Python/Day03.md):字典/set                     | [**Day04**](01-Python/Day04.md):if/循环                      |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -45,112 +45,89 @@
 
 <b><details><summary>🤖️机器学习理论</summary></b>
 
-- [**逻辑回归**](02-Machine-Learning/逻辑回归.md)
-- [**EM算法**](02-Machine-Learning/EM算法.md)
-- [**集成学习**](02-Machine-Learning/集成学习入门.md)
-- [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)
-- [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)
-- [**K-means**](02-Machine-Learning/K-means.md)
-- [**K最近邻**](02-Machine-Learning/K最近邻.md)
-- [**贝叶斯**](https://mp.weixin.qq.com/s/jfQNQ0mMe7a-k3IQNL_YAg)
-- [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md)
-- [**Gradient Boosting**](https://mp.weixin.qq.com/s/0OiVlKOhaXUgHF9SlbHgpA)
-- [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw)
-- [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ)
-- [**XgBoost**](https://mp.weixin.qq.com/s/HDEKnIufbW8xQcOgHaXlZw)
-- [**GBDT分类**](https://mp.weixin.qq.com/s/-UmOhpktgRaOF7tT2-5nsQ)
-- [**GBDT回归**](https://mp.weixin.qq.com/s/zPGcY41HNeebg9Si-vt3rg)
-- [**LightGBM**](https://mp.weixin.qq.com/s/zejkifZnYXAfgTRrkMaEww)
-- [**CatBoost**](https://mp.weixin.qq.com/s/xloTLr5NJBgBspMQtxPoFA)
+| [**逻辑回归**](02-Machine-Learning/逻辑回归.md)              | [**EM算法**](02-Machine-Learning/EM算法.md)                  | [**集成学习**](02-Machine-Learning/集成学习入门.md)          | [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)         | [**K-means**](02-Machine-Learning/K-means.md)                | [**K最近邻**](02-Machine-Learning/K最近邻.md)                | [**贝叶斯**](https://mp.weixin.qq.com/s/jfQNQ0mMe7a-k3IQNL_YAg) |
+| [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md) | [**Gradient Boosting**](https://mp.weixin.qq.com/s/0OiVlKOhaXUgHF9SlbHgpA) | [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw) | [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ) |
+| [**XgBoost**](https://mp.weixin.qq.com/s/HDEKnIufbW8xQcOgHaXlZw) | [**GBDT分类**](https://mp.weixin.qq.com/s/-UmOhpktgRaOF7tT2-5nsQ) | [**GBDT回归**](https://mp.weixin.qq.com/s/zPGcY41HNeebg9Si-vt3rg) | [**LightGBM**](https://mp.weixin.qq.com/s/zejkifZnYXAfgTRrkMaEww) |
+| [**CatBoost**](https://mp.weixin.qq.com/s/xloTLr5NJBgBspMQtxPoFA) |                                                              |                                                              |                                                              |
 
 </details>
 
 <b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
-- [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw)
-- [**BatchNorm**](https://mp.weixin.qq.com/s/o_Gwa11BauT60U7S1--3fQ)
-- [**梯度爆炸和消失**](https://mp.weixin.qq.com/s/6xHC5woJND14bozsBNaaXQ)
-- [**Dropout**](https://mp.weixin.qq.com/s/3nKXlu3jy-0sNgAHxaxGmQ)
-- [**CNN**](https://mp.weixin.qq.com/s/1om-0pg9uKU05yjfPA9fUg)
-- [**RNN**](https://mp.weixin.qq.com/s/IPyI2Ee6Kzyv3wFAUN7NOQ)
-- [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg)
-- [**Attention**](https://mp.weixin.qq.com/s/3911D_FkTWrtKwBo30vENg)
-- [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g)
-- [**seft-Attention/Transformer**](https://mp.weixin.qq.com/s/lUqpCae3TPkZlgT7gUatpg)
-- [**Transformer/BERT**](https://mp.weixin.qq.com/s/kI_k_plZbRzmdeXxt2_2WA)
-- [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ)
-- [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ)
+| [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw) | [**BatchNorm**](https://mp.weixin.qq.com/s/o_Gwa11BauT60U7S1--3fQ) | [**梯度爆炸和消失**](https://mp.weixin.qq.com/s/6xHC5woJND14bozsBNaaXQ) | [**Dropout**](https://mp.weixin.qq.com/s/3nKXlu3jy-0sNgAHxaxGmQ) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [**CNN**](https://mp.weixin.qq.com/s/1om-0pg9uKU05yjfPA9fUg) | [**RNN**](https://mp.weixin.qq.com/s/IPyI2Ee6Kzyv3wFAUN7NOQ) | [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg) | [**Attention**](https://mp.weixin.qq.com/s/3911D_FkTWrtKwBo30vENg) |
+| [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g) | [**seft-Attention/Transformer**](https://mp.weixin.qq.com/s/lUqpCae3TPkZlgT7gUatpg) | [**Transformer/BERT**](https://mp.weixin.qq.com/s/kI_k_plZbRzmdeXxt2_2WA) | [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ) |
+| [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ) |                                                              |                                                              |                                                              |
 
 </details>
 
-<b><details><summary>🀄️NLP相关理论</summary></b>
+<b><details><summary>🀄️NLP相关</summary></b>
 
-- [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw)
-- [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg)
-- [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g)
-- [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ)
-- [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ)
+- 理论
+
+| [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw) | [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg) | [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g) | [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ) |                                                              |                                                              |                                                              |
 
 </details>
 
 <b><details><summary>🤖️机器学习实战</summary></b>
 
 - **numpy**
-  - [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md)
-  - [**Day02**](05-Machine-Learning-Code/数据分析工具/Day02.md)
-  - [**Day03**](05-Machine-Learning-Code/数据分析工具/Day03.md)
+  
+  | [**Day01**](05-Machine-Learning-Code/数据分析工具/Day01.md) | [**Day02**](05-Machine-Learning-Code/数据分析工具/Day02.md) | [**Day03**](05-Machine-Learning-Code/数据分析工具/Day03.md) |      |
+  | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ---- |
+  |                                                             |                                                             |                                                             |      |
+  
+  
   
 - **pandas**
-  - [**加载数据**](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb)
-  - [**行列选择**](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb)
-  - [**索引**](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb)
-  - [**过滤器**](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb)
-  - [**更新行列**](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb)
-  - [**添加行列**](05-Machine-Learning-Code/数据分析工具/Pandas/6_Add_Remove_Rows.ipynb)
-  - [**数据排序**](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb)
-  - [**数据聚合**](05-Machine-Learning-Code/数据分析工具/Pandas/8_Grouping_Aggregating.ipynb)
-  - [**清洗数据**](05-Machine-Learning-Code/数据分析工具/Pandas/9_Cleaning_Data.ipynb)
-  - [**时间数据**](05-Machine-Learning-Code/数据分析工具/Pandas/10_WorkingWithDatesAndTimeSertesData.ipynb)
+  
+  | [**加载数据**](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb) | [**行列选择**](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb) | [**索引**](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb) | [**过滤器**](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb) |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [**更新行列**](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb) | [**添加行列**](05-Machine-Learning-Code/数据分析工具/Pandas/6_Add_Remove_Rows.ipynb) | [**数据排序**](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb) | [**数据聚合**](05-Machine-Learning-Code/数据分析工具/Pandas/8_Grouping_Aggregating.ipynb) |
+  | [**清洗数据**](05-Machine-Learning-Code/数据分析工具/Pandas/9_Cleaning_Data.ipynb) | [**时间数据**](05-Machine-Learning-Code/数据分析工具/Pandas/10_WorkingWithDatesAndTimeSertesData.ipynb) |                                                              |                                                              |
   
 - **matplotlib**
   
-  - [**直线图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)
-  - [**bar图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb)
-  - [**饼状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb)
-  - [**stack图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb)
-  - [**直线填充**](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb)
-  - [**hist图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/6_histograms.ipynb)
-  - [**点状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/7_Scatter.ipynb)
-  - [**时序图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/8_Time_Series_Data.ipynb)
-  - [**子图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/10_subplot.ipynb)
+  | [**直线图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb) | [**bar图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb) | [**饼状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb) | [**stack图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb) |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [**直线填充**](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb) | [**hist图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/6_histograms.ipynb) | [**点状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/7_Scatter.ipynb) | [**时序图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/8_Time_Series_Data.ipynb) |
+  | [**子图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/10_subplot.ipynb) |                                                              |                                                              |                                                              |
   
   </details>
 
 <b><details><summary>🏊‍♀️ 深度学习实战</summary></b>
 
 - **tensorflow**
-  - [**helloword**](06-Deep-Learning-Code/Tensorflow/Helloworld.md)
-  - [**Basic**](06-Deep-Learning-Code/Tensorflow/Basic.md)
-  - [**linear_regression**](06-Deep-Learning-Code/Tensorflow/linear_regression.md)
-  - [**logistic_regression**](06-Deep-Learning-Code/Tensorflow/logistic_regression.md)
-  - [**world2vec**](006-Deep-Learning-Code/Tensorflow/world2vec.md)
-  - [**基本图像分类**](06-Deep-Learning-Code/Tensorflow/基本图像分类.ipynb)
-  - [**TFHub文本分类**](06-Deep-Learning-Code/Tensorflow/TFHub文本分类.ipynb)
+  
+  | [**helloword**](06-Deep-Learning-Code/Tensorflow/Helloworld.md) | [**Basic**](06-Deep-Learning-Code/Tensorflow/Basic.md)       | [**linear_regression**](06-Deep-Learning-Code/Tensorflow/linear_regression.md) | [**logistic_regression**](06-Deep-Learning-Code/Tensorflow/logistic_regression.md) |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [**world2vec**](006-Deep-Learning-Code/Tensorflow/world2vec.md) | [**基本图像分类**](06-Deep-Learning-Code/Tensorflow/基本图像分类.ipynb) | [**TFHub文本分类**](06-Deep-Learning-Code/Tensorflow/TFHub文本分类.ipynb) |                                                              |
+  
+  
+  
 - **pytorch**
-  - [**start**](06-Deep-Learning-Code/pytorch/gettingstart.md)
-  - [**autograd**](06-Deep-Learning-Code/pytorch/atuograd.ipynb)
-  - [**NeuralNetworks**](06-Deep-Learning-Code/pytorch/NeuralNetworks.ipynb)
+  
+  | [**start**](06-Deep-Learning-Code/pytorch/gettingstart.md) | [**autograd**](06-Deep-Learning-Code/pytorch/atuograd.ipynb) | [**NeuralNetworks**](06-Deep-Learning-Code/pytorch/NeuralNetworks.ipynb) |      |
+  | ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+|                                                            |                                                              |                                                              |      |
+
 </details>
 
 <b><details><summary>💻大数据相关</summary></b>
 
 - Hadoop
-  - [**介绍**](09-BigData/Hadoop/1_介绍.md)
-  - [**集群搭建01**](09-BigData/Hadoop/2_集群搭建01.md)
-  - [**集群搭建02**](09-BigData/Hadoop/3_集群搭建02.md)
-  - [**集群搭建03**](09-BigData/Hadoop/4_集群搭建03.md)
-  - [**HDFS01**](09-BigData/Hadoop/5_HDFS01.md)
-  - [**HDFS02**](09-BigData/Hadoop/6_HDFS02.md)
+  
+  | [**介绍**](09-BigData/Hadoop/1_介绍.md)     | [**集群搭建01**](09-BigData/Hadoop/2_集群搭建01.md) | [**集群搭建02**](09-BigData/Hadoop/3_集群搭建02.md) | [**集群搭建03**](09-BigData/Hadoop/4_集群搭建03.md) |
+  | ------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+  | [**HDFS01**](09-BigData/Hadoop/5_HDFS01.md) | [**HDFS02**](09-BigData/Hadoop/6_HDFS02.md)         |                                                     |                                                     |
+  
+  
+  
 - Hive
 
 </details>
@@ -159,21 +136,11 @@
 
 <b><details><summary>📄剑指offer</summary></b>
 
--  [**Day01:二维数组中的查找**](08-offer/day01.md)
--  [**Day02:字符串替代**](08-offer/day02.md)
--  [**Day03**](08-offer/day03.md)
--  [**Day04**](08-offer/day04.md)
--  [**Day05**](08-offer/day05.md)
--  [**Day06**](08-offer/day06.md)
--  [**Day07**](08-offer/day07.md)
--  [**Day08**](08-offer/day08.md)
--  [**Day09**](08-offer/day09.md)
--  [**Day10**](08-offer/day10.md)
--  [**Day11**](08-offer/day11.md)
--  [**Day12**](08-offer/day12.md)
--  [**Day13**](08-offer/day13.md)
--  [**Day14**](08-offer/day14.md)
--  [**Day15**](08-offer/day15.md)
+| [**Day01:二维数组中的查找**](08-offer/day01.md) | [**Day02:字符串替代**](08-offer/day02.md) | [**Day03**](08-offer/day03.md) | [**Day04**](08-offer/day04.md) |
+| ----------------------------------------------- | ----------------------------------------- | ------------------------------ | ------------------------------ |
+| [**Day05**](08-offer/day05.md)                  | [**Day06**](08-offer/day06.md)            | [**Day07**](08-offer/day07.md) | [**Day08**](08-offer/day08.md) |
+| [**Day09**](08-offer/day09.md)                  | [**Day10**](08-offer/day10.md)            | [**Day11**](08-offer/day11.md) | [**Day12**](08-offer/day12.md) |
+| [**Day13**](08-offer/day13.md)                  | [**Day14**](08-offer/day14.md)            | [**Day15**](08-offer/day15.md) |                                |
 
 </details>
 
