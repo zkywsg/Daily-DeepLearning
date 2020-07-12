@@ -46,20 +46,20 @@
 
 | [**逻辑回归**](02-Machine-Learning/逻辑回归.md)              | [**EM算法**](02-Machine-Learning/EM算法.md)                  | [**集成学习**](02-Machine-Learning/集成学习入门.md)          | [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)         | [**K-means**](02-Machine-Learning/K-means.md)                | [**K最近邻**](02-Machine-Learning/K最近邻.md)                | [**贝叶斯**](https://mp.weixin.qq.com/s/jfQNQ0mMe7a-k3IQNL_YAg) |
-| [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md) | [**Gradient Boosting**](https://mp.weixin.qq.com/s/0OiVlKOhaXUgHF9SlbHgpA) | [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw) | [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ) |
-| [**XgBoost**](https://mp.weixin.qq.com/s/HDEKnIufbW8xQcOgHaXlZw) | [**GBDT分类**](https://mp.weixin.qq.com/s/-UmOhpktgRaOF7tT2-5nsQ) | [**GBDT回归**](https://mp.weixin.qq.com/s/zPGcY41HNeebg9Si-vt3rg) | [**LightGBM**](https://mp.weixin.qq.com/s/zejkifZnYXAfgTRrkMaEww) |
-| [**CatBoost**](https://mp.weixin.qq.com/s/xloTLr5NJBgBspMQtxPoFA) |                                                              |                                                              |                                                              |
+| [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)         | [**K-means**](02-Machine-Learning/K-means.md)                | [**K最近邻**](02-Machine-Learning/K最近邻.md)                | [**贝叶斯**](02-Machine-Learning/贝叶斯.md)                  |
+| [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md) | [**Gradient Boosting**](02-Machine-Learning/Gradient_Boosting.md) | [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw) | [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ) |
+| [**XgBoost**](02-Machine-Learning/XgBoost.md)                | [**GBDT分类**](02-Machine-Learning/GBDT分类.md)              | [**GBDT回归**](02-Machine-Learning/GBDT回归.md)              | [**LightGBM**](02-Machine-Learning/LightGBM.md)              |
+| [**CatBoost**](02-Machine-Learning/CatBoost.md)              |                                                              |                                                              |                                                              |
 
 </details>
 
 <b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
-| [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw) | [**BatchNorm**](https://mp.weixin.qq.com/s/o_Gwa11BauT60U7S1--3fQ) | [**梯度爆炸和消失**](https://mp.weixin.qq.com/s/6xHC5woJND14bozsBNaaXQ) | [**Dropout**](https://mp.weixin.qq.com/s/3nKXlu3jy-0sNgAHxaxGmQ) |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [**CNN**](https://mp.weixin.qq.com/s/1om-0pg9uKU05yjfPA9fUg) | [**RNN**](https://mp.weixin.qq.com/s/IPyI2Ee6Kzyv3wFAUN7NOQ) | [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg) | [**Attention**](https://mp.weixin.qq.com/s/3911D_FkTWrtKwBo30vENg) |
-| [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g) | [**seft-Attention/Transformer**](https://mp.weixin.qq.com/s/lUqpCae3TPkZlgT7gUatpg) | [**Transformer/BERT**](https://mp.weixin.qq.com/s/kI_k_plZbRzmdeXxt2_2WA) | [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ) |
-| [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ) |                                                              |                                                              |                                                              |
+| [**Word2Vec**](03-Deep-Learning/Word2Vec.md) | [**BatchNorm**](03-Deep-Learning/BatchNorm.md)     | [**梯度爆炸和消失**](03-Deep-Learning/梯度爆炸和消失.md) | [**Dropout**](03-Deep-Learning/Dropout.md)     |
+| :------------------------------------------- | :------------------------------------------------- | :------------------------------------------------------- | :--------------------------------------------- |
+| [**CNN**](03-Deep-Learning/CNN.md)           | [**RNN**](03-Deep-Learning/RNN.md)                 | [**LSTM**](03-Deep-Learning/LSTM.md)                     | [**Attention**](03-Deep-Learning/Attention.md) |
+| [**ELMo**](03-Deep-Learning/ELMo.md)         | [**Transformer**](03-Deep-Learning/Transformer.md) | [**BERT**](03-Deep-Learning/BERT.md)                     | [**ALBERT**](03-Deep-Learning/ALBERT.md)       |
+| [**XLNet**](03-Deep-Learning/XLNet.md)       |                                                    |                                                          |                                                |
 
 </details>
 
@@ -67,9 +67,9 @@
 
 - 理论
 
-| [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw) | [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg) | [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g) | [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ) |                                                              |                                                              |                                                              |
+| [**Word2Vec**](03-Deep-Learning/Word2Vec.md) | [**LSTM**](03-Deep-Learning/LSTM.md) | [**ELMo**](03-Deep-Learning/ELMo.md) | [**ALBERT**](03-Deep-Learning/ALBERT.md) |
+| -------------------------------------------- | ------------------------------------ | ------------------------------------ | ---------------------------------------- |
+| [**XLNet**](03-Deep-Learning/XLNet.md)       |                                      |                                      |                                          |
 
 </details>
 
