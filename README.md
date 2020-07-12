@@ -1,8 +1,7 @@
 # **Daily-DearnLearning**
 
-数据挖掘/数据分析/爬虫/NLP🌟邮箱：lauzanhing@gmail.com
-
-🌲我的自媒体账号:公众号/b站/知乎:zkywsg
+- 数据挖掘/数据分析/爬虫/NLP🌟邮箱：lauzanhing@gmail.com
+- 我的自媒体账号:公众号/b站/知乎:**zkywsg**
 
 <b><details><summary>💻计算机基础课</summary></b>
 
@@ -46,7 +45,7 @@
 <b><details><summary>🤖️机器学习理论</summary></b>
 
 | [**逻辑回归**](02-Machine-Learning/逻辑回归.md)              | [**EM算法**](02-Machine-Learning/EM算法.md)                  | [**集成学习**](02-Machine-Learning/集成学习入门.md)          | [**随机森林和GBDT**](02-Machine-Learning/随机森林和GBDT.md)  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [**ID3/C4.5**](02-Machine-Learning/ID3和C4.5算法.md)         | [**K-means**](02-Machine-Learning/K-means.md)                | [**K最近邻**](02-Machine-Learning/K最近邻.md)                | [**贝叶斯**](https://mp.weixin.qq.com/s/jfQNQ0mMe7a-k3IQNL_YAg) |
 | [**xgboost/lightGBM**](02-Machine-Learning/XgBoost和LightGBM.md) | [**Gradient Boosting**](https://mp.weixin.qq.com/s/0OiVlKOhaXUgHF9SlbHgpA) | [**Boosting Tree**](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw) | [**回归树**](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ) |
 | [**XgBoost**](https://mp.weixin.qq.com/s/HDEKnIufbW8xQcOgHaXlZw) | [**GBDT分类**](https://mp.weixin.qq.com/s/-UmOhpktgRaOF7tT2-5nsQ) | [**GBDT回归**](https://mp.weixin.qq.com/s/zPGcY41HNeebg9Si-vt3rg) | [**LightGBM**](https://mp.weixin.qq.com/s/zejkifZnYXAfgTRrkMaEww) |
@@ -57,7 +56,7 @@
 <b><details><summary>🏊‍♀️深度学习理论</summary></b>
 
 | [**Word2Vec**](https://mp.weixin.qq.com/s/zDneR1BU6xvt8cndEF4_Xw) | [**BatchNorm**](https://mp.weixin.qq.com/s/o_Gwa11BauT60U7S1--3fQ) | [**梯度爆炸和消失**](https://mp.weixin.qq.com/s/6xHC5woJND14bozsBNaaXQ) | [**Dropout**](https://mp.weixin.qq.com/s/3nKXlu3jy-0sNgAHxaxGmQ) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [**CNN**](https://mp.weixin.qq.com/s/1om-0pg9uKU05yjfPA9fUg) | [**RNN**](https://mp.weixin.qq.com/s/IPyI2Ee6Kzyv3wFAUN7NOQ) | [**LSTM**](https://mp.weixin.qq.com/s/0Q0aK4xmyKkZ0fMUIhc3Sg) | [**Attention**](https://mp.weixin.qq.com/s/3911D_FkTWrtKwBo30vENg) |
 | [**词向量/ELMo**](https://mp.weixin.qq.com/s/i7EJSNzDsNNbK2YA_YNu8g) | [**seft-Attention/Transformer**](https://mp.weixin.qq.com/s/lUqpCae3TPkZlgT7gUatpg) | [**Transformer/BERT**](https://mp.weixin.qq.com/s/kI_k_plZbRzmdeXxt2_2WA) | [**BERT/ALBERT**](https://mp.weixin.qq.com/s/K1ILbaKr-WUzDAgqdYmLsQ) |
 | [**XLNet**](https://mp.weixin.qq.com/s/wlV8UbOUYSmc-AdaGfQQMQ) |                                                              |                                                              |                                                              |
