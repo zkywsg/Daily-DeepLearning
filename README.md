@@ -1,6 +1,6 @@
 # **Daily-DearnLearning**
 
-- 数据挖掘/数据分析/爬虫/NLP🌟邮箱：lauzanhing@gmail.com
+- 数据挖掘/数据分析/爬虫/NLP🌟邮箱：lauzanhing@gmail.com 
 - 我的自媒体账号:公众号/b站/知乎:**zkywsg**
 
 <b><details><summary>💻计算机基础课</summary></b>
