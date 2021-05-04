@@ -35,7 +35,7 @@
 <table>
   <tr>
     <td>[**Day01**](01-Python/Day01.md):变量/字符串/数字和运算符</td>
-    <td>Savings</td>
+    <td>Savins</td>
   </tr>
   <tr>
     <td>January</td>
