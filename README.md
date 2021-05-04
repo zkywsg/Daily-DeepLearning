@@ -32,9 +32,9 @@
 
 <b><details><summary>🐍Python</summary></b>
 
-<table border="1">
+<table>
   <tr>
-    <td>Month</td>
+    <td>[**Day01**](01-Python/Day01.md):变量/字符串/数字和运算符</td>
     <td>Savings</td>
   </tr>
   <tr>
