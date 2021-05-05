@@ -34,8 +34,6 @@
 
 ##### 快速入门
 
-
-
 | [**Day01**](01-Python/Day01.md):变量/字符串/数字和运算符     | [**Day02**](01-Python/Day02.md):列表/元组                    | [**Day03**](01-Python/Day03.md):字典/set                     | [**Day04**](01-Python/Day04.md):if/循环                      |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**Day05**](01-Python/Day05.md):**调用函数/定义函数/函数的参数** | [**Day06**](01-Python/Day06.md):**迭代/列表生成式/生成器/迭代器** | [**Day07**](01-Python/Day07.md):**高阶函数/返回函数/匿名函数/装饰器** | [**Day08**](01-Python/Day08.md):**类和实例/限制访问/继承和多态** |
@@ -43,6 +41,30 @@
 | [**Day13**](01-Python/Day13.md):**datetime/collections/struct** | [**Day14**](01-Python/Day14.md):**协程/asyncio/async/await/aiohttp** | [**Day15**](01-Python/Day15.md)                              |                                                              |
 
 ##### 数据科学包的使用
+
+- **numpy**
+
+  | [**创建ndarray**](05-Machine-Learning-Code/数据分析工具/Numpy/创建ndarray.md) | [**数据类型和运算**](05-Machine-Learning-Code/数据分析工具/Numpy/数据类型和运算.md) | [**索引和切片**](05-Machine-Learning-Code/数据分析工具/Numpy/索引和切片.md) | [**矩阵操作**](05-Machine-Learning-Code/数据分析工具/Numpy/矩阵操作.md) |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+  
+
+- **pandas**
+
+  | [**加载数据**](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb) | [**行列选择**](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb) | [**索引**](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb) | [**过滤器**](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb) |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [**更新行列**](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb) | [**添加行列**](05-Machine-Learning-Code/数据分析工具/Pandas/6_Add_Remove_Rows.ipynb) | [**数据排序**](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb) | [**数据聚合**](05-Machine-Learning-Code/数据分析工具/Pandas/8_Grouping_Aggregating.ipynb) |
+  | [**清洗数据**](05-Machine-Learning-Code/数据分析工具/Pandas/9_Cleaning_Data.ipynb) | [**时间数据**](05-Machine-Learning-Code/数据分析工具/Pandas/10_WorkingWithDatesAndTimeSertesData.ipynb) |                                                              |                                                              |
+
+- **matplotlib**
+
+  | [**直线图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb) | [**bar图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb) | [**饼状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb) | [**stack图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb) |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [**直线填充**](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb) | [**hist图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/6_histograms.ipynb) | [**点状图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/7_Scatter.ipynb) | [**时序图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/8_Time_Series_Data.ipynb) |
+  | [**子图**](05-Machine-Learning-Code/数据分析工具/Matplotlib/10_subplot.ipynb) |                                                              |                                                              |                                                              |
+
+
+##### 进阶和查阅
 
 
 
