@@ -1,6 +1,6 @@
 # **Daily-DearnLearning**
 
-- 数据挖掘/数据分析/爬虫/NLP 工作联系: lauzanhing@gmail.com 
+- 数据挖掘/数据分析/爬虫/NLP 工作联系: yikejiqiren@gmail.com 
 - 公众号:**zkywsg**
 
 <b><details><summary>💻计算机基础课</summary></b>
