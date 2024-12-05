@@ -1,6 +1,6 @@
 # **Daily-DearnLearning**
 
-- 工作联系: lauzanhing@gmail.com 
+工作联系: lauzanhing@gmail.com 
 
 
 <b><details><summary>💻计算机基础课</summary></b>
