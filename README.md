@@ -136,7 +136,6 @@
 
 - [**Word2Vec**](03-Deep-Learning/Word2Vec.md)
 - [**BatchNorm**](03-Deep-Learning/BatchNorm.md)
-- [**梯度爆炸和消失**](03-Deep-Learning/梯度爆炸和消失.md)
 - [**Dropout**](03-Deep-Learning/Dropout.md)
 - [**CNN**](03-Deep-Learning/CNN.md)
 - [**RNN**](03-Deep-Learning/RNN.md)
