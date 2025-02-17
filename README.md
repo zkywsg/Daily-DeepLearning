@@ -1,6 +1,12 @@
-# 🌟 **Daily-DearnLearning** 🌟  
+# 🌟 **Daily-DeepLearning** 🌟  
 
-欢迎来到 **Daily-DearnLearning**，这是一个涵盖计算机基础、编程语言、数据科学、机器学习、深度学习、自然语言处理等多个领域的学习资源库。无论你是初学者还是有经验的开发者，都能在这里找到有价值的内容。
+欢迎来到 **Daily-DearnLearning**，原本这是一个为了自己打造的**深度学习知识库**（⬇️滑到最下面或者看目录，可以看以前的和机器学习、深度学习相关的内容），涵盖计算机基础、编程语言、数据科学、机器学习、深度学习、自然语言处理等。
+
+在17年的时候就根据Google的《Attention is all you need》做了一些学习、复现，那会已经快毕业了，舍友问我：“你觉得NLP什么时候能成熟？”，我当时信誓旦旦的说：“至少得几十年吧。”，后来阴差阳错没有做算法的工作，跌跌撞撞进了体制内。2018年，Bert刚出现，当时还在想，怎么NLP也要学图像开始做大力出奇迹的事情了吗，再后来Elmo、GPT-2，再到chatGPT的效果出现了爆炸式的提升，我有点按耐不住了，人工智能的斯普特尼克时刻（Sputnik moment）真的要来了吗。打算从头和大家一起学习，回到这个令人兴奋的领域。（24年11、12月开始关注deepseek，结果25年的1月R1发布之后，在全球大火，这个奇点时刻似乎越来越近了）
+
+纠结了一阵子，要不要把Daily-DeepLearning改成Daily-LLM，想了想还是算了吧，反正现在都是基于deeplearning。
+
+要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来
 
 ---
 
@@ -150,24 +156,6 @@
 - [ELMo](03-Deep-Learning/ELMo.md)  
 - [ALBERT](03-Deep-Learning/ALBERT.md)  
 - [XLNet](03-Deep-Learning/XLNet.md)  
-
----
-
-### 🖥️ **大数据相关**  
-**Hadoop**  
-- [介绍](09-BigData/Hadoop/1_介绍.md)  
-- [集群搭建](09-BigData/Hadoop/2_集群搭建01.md)  
-- [HDFS](09-BigData/Hadoop/5_HDFS01.md)  
-
-**Hive**  
-- [介绍](09-BigData/Hive/1_介绍.md)  
-
----
-
-### 📄 **剑指 Offer 算法题解**  
-- [二维数组中的查找](08-offer/day01.md)  
-- [字符串替代](08-offer/day02.md)  
-- [更多题解](08-offer/day03.md)  
 
 ---
 
