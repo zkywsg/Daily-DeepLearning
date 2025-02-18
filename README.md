@@ -8,7 +8,7 @@
 
 纠结了一阵子，要不要把Daily-DeepLearning改成Daily-LLM，想了想还是算了吧，反正现在都是基于deeplearning。
 
-要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
+要说LLM，大家第一反应应该都是[《Attention is all you need》](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
 这里其实有三个核心的创新点（完整解析文档[《Attention is all you need》解析](08-LLM/Attentionisallyouneed/核心解析.md)）
 
@@ -24,6 +24,7 @@
 
 ### 🖥️ **计算机基础课程**  
 **数据结构**  
+
 - [基本概念和算法评价](07-BaseClass/Ds/01基本概念和算法评价.md)  
 - [线性表](07-BaseClass/Ds/02线性表.md)  
 - [栈和队列](07-BaseClass/Ds/03栈和队列.md)  
