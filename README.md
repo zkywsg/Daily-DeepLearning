@@ -1,6 +1,6 @@
 # 🌟 **Daily-DeepLearning** 🌟  
 
-### 		来了就别走了！来了就别走了！来了就别走了！零基础也能学！零基础也能学！零基础也能学！点个star吧！点个star吧！点个star吧！
+### 		来了就别走了！来了就别走了！来了就别走了！
 
 欢迎来到 **Daily-DearnLearning**，原本这是一个为了自己打造的**深度学习知识库**（⬇️滑到最下面或者看目录，可以看以前的和机器学习、深度学习相关的内容），涵盖[计算机基础课程](07-BaseClass/)、[Python快速入门](01-Python/)、[数据科学包的使用](05-Machine-Learning-Code/数据分析工具/)、[机器学习](02-Machine-Learning/)、[深度学习](03-Deep-Learning/)、[自然语言处理](04-NLP/)、[LLM](08-LLM/)等。
 
