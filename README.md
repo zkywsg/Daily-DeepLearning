@@ -20,7 +20,42 @@
 
 第三个是用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。[位置编码机制解析](08-LLM/Attentionisallyouneed/positionalencoding.md)
 
-如果这三个核心点都理解了，我们可以开始看看整个[**Transformer**](08-LLM/Attentionisallyouneed/Transformer.md)的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列
+如果这三个核心点都理解了，我们可以开始看看整个**Transformer**的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列的特征，**Decoder**是生成输出序列。比如在翻译任务中，Encoder处理源语言，Decoder生成目标语言。（Encoder可以并行处理所有输入，Decoder和Lstm类似，每一步是依赖之前的输出的）
+
+以机器翻译为例
+
+```python
+# Encoder
+输入序列：["我", "爱", "自然语言处理"]
+↓
+词嵌入 + 位置编码 → [向量1, 向量2, 向量3]
+↓
+经过6个编码器层的处理：
+   每个层包含：
+   1. 多头自注意力（关注整个输入序列）
+   2. 前馈神经网络（特征变换）
+   3. 残差连接 + 层归一化
+↓
+输出上下文表示：包含"我-爱-处理"关系的综合特征矩阵
+
+# Decoder
+已生成部分：["I"]
+↓
+输入：["<start>", "I"]（起始符 + 已生成词）
+↓
+经过6个解码器层的处理：
+   每个层包含：
+   1. 掩码多头注意力（仅关注已生成部分）
+   2. 编码-解码注意力（连接编码器输出）
+   3. 前馈神经网络
+   4. 残差连接 + 层归一化
+↓ 
+预测下一个词："love"
+```
+
+![解码器内部结构](https://jalammar.github.io/images/t/transformer_decoding_1.gif)
+
+[Transformer解析](08-LLM/Attentionisallyouneed/Transformer.md)
 
 ---
 
