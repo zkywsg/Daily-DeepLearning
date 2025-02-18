@@ -10,7 +10,13 @@
 
 要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
-这里其实有三个核心的创新点，第一个是模型的主体结构不再是CNN、RNN的变种，用了用self-Attention为主的Transformer结构，所以这篇论文的标题才会说这是all you need嘛。这种方法解决了无法并行计算并且长距离捕捉予以的问题。第二个是多头注意力机制Multi-Head Attention，把输入映射到多个不同的空间，并行计算注意力，有点像CV的RGB、进阶版的词向量的感觉，捕捉不同维度的语义信息，比如语法、语意、上下文信息等等。
+这里其实有三个核心的创新点（完整解析文档[《Attention is all you need》解析](08-LLM/Attentionisallyouneed/核心解析.md)）
+
+第一个是模型的主体结构不再是CNN、RNN的变种，用了用self-Attention为主的Transformer结构，所以这篇论文的标题才会说这是all you need嘛。这种方法解决了无法并行计算并且长距离捕捉予以的问题。
+
+第二个是多头注意力机制Multi-Head Attention，把输入映射到多个不同的空间，并行计算注意力，有点像CV的RGB、进阶版的词向量的感觉，捕捉不同维度的语义信息，比如语法、语意、上下文信息等等。
+
+第三个是用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。
 
 ---
 
