@@ -15,6 +15,8 @@ Self-Attention允许序列中的每个位置直接关注所有其他位置，通
 假设输入序列有n个词，每个词向量维度为$d_{model}$：
 $$ X \in \mathbb{R}^{n \times d_{model}} $$
 
+![](https://latex.codecogs.com/png.image?\dpi{200}\ X \in \mathbb{R}^{n \times d_{model}} )
+
 #### 步骤2：生成Q/K/V
 通过可学习的权重矩阵进行线性变换：
 $$
@@ -27,7 +29,7 @@ $$
 
 #### 步骤3：计算注意力分数
 $$
-\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V 
+\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
 
 **分步推导**：
