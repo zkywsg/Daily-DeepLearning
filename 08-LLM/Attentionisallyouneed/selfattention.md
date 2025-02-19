@@ -13,9 +13,19 @@ Self-Attention允许序列中的每个位置直接关注所有其他位置，通
 
 #### 步骤1：输入表示
 假设输入序列有n个词，每个词向量维度为$d_{model}$：
-$$ X \in \mathbb{R}^{n \times d_{model}} $$
+$$ X \in \mathbb{R}^{n\times d_{model}} $$
 
-![](https://latex.codecogs.com/png.image?\dpi{200}\ X \in \mathbb{R}^{n \times d_{model}} )
+
+
+```latex
+\begin{aligned}
+Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
+K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
+V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
+\end{aligned}
+```
+
+
 
 #### 步骤2：生成Q/K/V
 通过可学习的权重矩阵进行线性变换：
