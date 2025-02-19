@@ -13,27 +13,12 @@ Self-Attention允许序列中的每个位置直接关注所有其他位置，通
 
 #### 步骤1：输入表示
 假设输入序列有n个词，每个词向量维度为$d_{model}$：
-$$ X \in \mathbb{R}^{n\times d_{model}} $$
-
-
-
-````markdown
-```math
-\begin{aligned}
-Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
-K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
-V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
-\end{aligned}
-```
-````
 
 ```math
-\begin{aligned}
-Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
-K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
-V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
-\end{aligned}
+X \in \mathbb{R}^{n\times d_{model}}
 ```
+
+
 
 #### 步骤2：生成Q/K/V
 通过可学习的权重矩阵进行线性变换：
@@ -52,7 +37,7 @@ $$
 
 **分步推导**：
 1. 相似度计算：  
-   $$ S = QK^T \in \mathbb{R}^{n \times n} $$
+   $S = QK^T \in \mathbb{R}^{n \times n}$
    
 2. 缩放操作：  
    $$ S_{scaled} = \frac{S}{\sqrt{d_k}} $$
