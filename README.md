@@ -55,7 +55,15 @@
 
 ![解码器内部结构](https://jalammar.github.io/images/t/transformer_decoding_1.gif)
 
+自从Transformer架构提出后，在NLP领域开始涌现出了一系列有意思的工作。
 
+### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+论文戳这里：[*BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://arxiv.org/abs/1810.04805)
+
+Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。
+
+### 早期的GPT系列（2018-2020）
 
 ---
 
