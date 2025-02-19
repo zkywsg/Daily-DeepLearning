@@ -6,7 +6,7 @@
 
 我在17年的时候就根据Google的《Attention is all you need》做了一些学习、复现，那会已经快毕业了，舍友问我：“你觉得NLP什么时候能成熟？”，我当时信誓旦旦的说：“至少得几十年吧。”，后来阴差阳错没有做算法的工作，跌跌撞撞进了体制内。2018年，Bert刚出现，当时还在想，怎么NLP也要学图像开始做大力出奇迹的事情了吗，再后来Elmo、GPT-2，再到chatGPT的效果出现了爆炸式的提升，我有点按耐不住了，人工智能的斯普特尼克时刻（Sputnik moment）真的要来了吗。打算从头和大家一起学习，回到这个令人兴奋的领域。（24年11、12月开始关注deepseek，结果25年的1月R1发布之后，在全球大火，这个奇点时刻似乎越来越近了）
 
-纠结了一阵子，要不要把Daily-DeepLearning改成Daily-LLM，想了想还是算了吧，反正现在都是基于deeplearning。
+纠结了一阵子，要不要把Daily-DeepLearning改成Daily-LLM，想了想还是算了吧，反正现在都是基于deeplearning
 
 ### 《Attention is All you need》的发表
 
@@ -20,7 +20,7 @@
 
 第三个是用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。[位置编码机制解析](08-LLM/Attentionisallyouneed/positionalencoding.md)
 
-如果这三个核心点都理解了，我们可以开始看看整个**Transformer**的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列的特征，**Decoder**是生成输出序列。比如在翻译任务中，Encoder处理源语言，Decoder生成目标语言。（Encoder可以并行处理所有输入，Decoder和Lstm类似，每一步是依赖之前的输出的）
+如果这三个核心点都理解了，我们可以开始看看整个**Transformer**的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列的特征，**Decoder**是生成输出序列。比如在翻译任务中，Encoder处理源语言，Decoder生成目标语言。（Encoder可以并行处理所有输入，Decoder和Lstm类似，每一步是依赖之前的输出的）[Transformer解析](08-LLM/Attentionisallyouneed/Transformer.md)
 
 以机器翻译为例
 
@@ -55,7 +55,7 @@
 
 ![解码器内部结构](https://jalammar.github.io/images/t/transformer_decoding_1.gif)
 
-[Transformer解析](08-LLM/Attentionisallyouneed/Transformer.md)
+
 
 ---
 
