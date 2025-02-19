@@ -18,11 +18,13 @@ $$ X \in \mathbb{R}^{n\times d_{model}} $$
 
 
 ```latex
+$$
 \begin{aligned}
 Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
 K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
 V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
 \end{aligned}
+$$
 ```
 
 
