@@ -55,7 +55,26 @@
 
 ![解码器内部结构](https://jalammar.github.io/images/t/transformer_decoding_1.gif)
 
+通过这个图，基本上能理解Transformer的90%了，有一个比较特殊的点是Decoder的掩码注意力机制。Decoder在生成目标序列的时候，是自回归的，也就是一个一个词生成的。比如在翻译的时候，先生成第一个词，然后用第一个词生成第二个词，依此类推。这时候在训练的时候，怎么确保解码器不会看到未来的信息呢？比如在预测第三个词的时候，模型不应该知道第三个词之后的正确答案，否则会导致信息泄漏，影响模型的泛化能力。
+
+这时候就需要掩码注意力机制了。掩码的作用应该是掩盖掉当前位置之后的位置，使得在计算注意力权重的时候，后面的位置不会被考虑到。具体来说，在自注意力计算的时候，生成一个上三角矩阵，对角线以上的元素设置为负无穷或者一个很小的数，这样在softmax之后，这些位置的权重就会接近零。
+
+![掩码注意力权重](https://jalammar.github.io/images/t/transformer_self-attention_visualization.png)
+
+比如，对于一个长度为4的序列，掩码矩阵可能如下：
+
+```python
+[[0, -inf, -inf, -inf],
+ [0, 0, -inf, -inf],
+ [0, 0, 0, -inf],
+ [0, 0, 0, 0]]  # 0表示保留，-inf表示掩盖
+```
+
+当计算注意力时，每个位置只能看到自己和前面的位置。例如，第二个位置只能关注第一个和第二个位置，第三个位置可以关注前三个，依此类推。[掩码解析](08-LLM/Attentionisallyouneed/Mask.md)
+
 自从Transformer架构提出后，在NLP领域开始涌现出了一系列有意思的工作。
+
+完整的复现推荐这个[Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 ### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
