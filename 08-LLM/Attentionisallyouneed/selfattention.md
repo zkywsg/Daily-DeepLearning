@@ -17,17 +17,23 @@ $$ X \in \mathbb{R}^{n\times d_{model}} $$
 
 
 
-```latex
-$$
+````markdown
+```math
 \begin{aligned}
 Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
 K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
 V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
 \end{aligned}
-$$
 ```
+````
 
-
+```math
+\begin{aligned}
+Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
+K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
+V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
+\end{aligned}
+```
 
 #### 步骤2：生成Q/K/V
 通过可学习的权重矩阵进行线性变换：
