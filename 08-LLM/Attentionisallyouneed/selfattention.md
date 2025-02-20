@@ -22,13 +22,12 @@ X \in \mathbb{R}^{n\times d_{model}}
 
 #### 步骤2：生成Q/K/V
 通过可学习的权重矩阵进行线性变换：
-$$
-\begin{aligned}
+
+$\begin{aligned}
 Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
 K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
 V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
-\end{aligned}
-$$
+\end{aligned}$
 
 #### 步骤3：计算注意力分数
 $$
