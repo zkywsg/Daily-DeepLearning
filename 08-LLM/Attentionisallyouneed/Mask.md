@@ -51,9 +51,12 @@
 
 #### **3.3 Softmax归一化**
 经过掩码后的Softmax计算：
-$$
+
+```math
 \text{Attention Weights} = \text{softmax}(\text{Masked Scores})
-$$
+```
+
+
 
 **效果**：被掩码的位置权重趋近于0，模型仅关注有效位置。
 
