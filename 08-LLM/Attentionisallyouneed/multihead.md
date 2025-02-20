@@ -4,31 +4,40 @@
 **2. 数学公式推导**
 
 ##### **2.1 输入定义**
-- 输入矩阵：$X \in \mathbb{R}^{n \times d_{\text{model}}}$（n为序列长度，$d_{\text{model}}$为模型维度）
-- 头数：$h$
-- 每个头的维度：$d_k = d_v = d_{\text{model}} / h$
+- 输入矩阵： $X \in \mathbb{R}^{n \times d_{\text{model}}}$（n为序列长度， $d_{\text{model}}$为模型维度）
+- 头数： $h$
+- 每个头的维度： $d_k = d_v = d_{\text{model}} / h$
 
 ##### **2.2 线性投影**
 对每个头进行独立的线性变换：
-$$
+
+```math
 \begin{aligned}
 Q_i &= X W_i^Q \quad (W_i^Q \in \mathbb{R}^{d_{\text{model}} \times d_k}) \\
 K_i &= X W_i^K \quad (W_i^K \in \mathbb{R}^{d_{\text{model}} \times d_k}) \\
 V_i &= X W_i^V \quad (W_i^V \in \mathbb{R}^{d_{\text{model}} \times d_v})
 \end{aligned}
-$$
+```
+
+
 
 ##### **2.3 缩放点积注意力**
 每个头独立计算注意力：
-$$
+
+```math
 \text{head}_i = \text{softmax}\left( \frac{Q_i K_i^T}{\sqrt{d_k}} \right) V_i
-$$
+```
+
+
 
 ##### **2.4 多头合并**
 拼接所有头的输出并通过线性变换：
-$$
+
+```math
 \text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, ..., \text{head}_h) W^O \quad (W^O \in \mathbb{R}^{h d_v \times d_{\text{model}}})
-$$
+```
+
+
 
 ---
 

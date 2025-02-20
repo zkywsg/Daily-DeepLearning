@@ -23,11 +23,15 @@ X \in \mathbb{R}^{n\times d_{model}}
 #### 步骤2：生成Q/K/V
 通过可学习的权重矩阵进行线性变换：
 
-$\begin{aligned}
+```math
+\begin{aligned}
 Q &= XW^Q \quad (W^Q \in \mathbb{R}^{d_{model} \times d_k}) \\
 K &= XW^K \quad (W^K \in \mathbb{R}^{d_{model} \times d_k}) \\
 V &= XW^V \quad (W^V \in \mathbb{R}^{d_{model} \times d_v})
-\end{aligned}$
+\end{aligned}
+```
+
+
 
 #### 步骤3：计算注意力分数
 $$
@@ -39,14 +43,14 @@ $$
    $S = QK^T \in \mathbb{R}^{n \times n}$
    
 2. 缩放操作：  
-   $$ S_{scaled} = \frac{S}{\sqrt{d_k}} $$
+   $S_{scaled} = \frac{S}{\sqrt{d_k}}$
    （防止点积值过大导致softmax梯度消失）
 
 3. 归一化：  
-   $$ A = \text{softmax}(S_{scaled}) \in \mathbb{R}^{n \times n} $$
+   $A = \text{softmax}(S_{scaled}) \in \mathbb{R}^{n \times n}$
 
 4. 加权求和：  
-   $$ \text{Output} = AV \in \mathbb{R}^{n \times d_v} $$
+   $\text{Output} = AV \in \mathbb{R}^{n \times d_v}$
 
 ---
 

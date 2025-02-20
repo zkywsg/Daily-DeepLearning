@@ -6,13 +6,16 @@
 ### **2. 数学公式推导**
 
 ##### **2.1 基本公式**
-对于位置$pos$和维度索引$i$，位置编码的计算公式为：
-$$
+对于位置 $pos$和维度索引 $i$，位置编码的计算公式为：
+
+```math
 \begin{aligned}
 PE_{(pos, 2i)} &= \sin\left(\frac{pos}{10000^{2i/d_{\text{model}}}}\right) \\
 PE_{(pos, 2i+1)} &= \cos\left(\frac{pos}{10000^{2i/d_{\text{model}}}}\right)
 \end{aligned}
-$$
+```
+
+
 
 ##### **2.2 公式解析**
 - **频率控制**：不同维度对应不同的波长（高频→捕捉局部位置，低频→捕捉全局位置）
@@ -20,9 +23,9 @@ $$
 - **奇偶交替**：偶数维度用正弦，奇数维度用余弦（确保相邻维度相关性）
 
 ##### **2.3 波长计算示例**
-假设$d_{\text{model}}=512$：
-- 当$i=0$时，波长：$10000^{0/512}=1$ → 周期为$2\pi$
-- 当$i=255$时，波长：$10000^{510/512}≈10000^{0.996}≈9540$ → 周期极长
+假设 $d_{\text{model}}=512$：
+- 当 $i=0$时，波长： $10000^{0/512}=1$ → 周期为 $2\pi$
+- 当 $i=255$时，波长： $10000^{510/512}≈10000^{0.996}≈9540$ → 周期极长
 
 ---
 
@@ -66,14 +69,14 @@ class PositionalEncoding(nn.Module):
 
 ### **4. 代码与公式对应解析**
 
-| **公式步骤**                       | **代码实现**                                         |
-| ---------------------------------- | ---------------------------------------------------- |
-| 初始化位置矩阵$PE$                 | `pe = torch.zeros(max_len, d_model)`                 |
-| 计算位置序列$pos$                  | `position = torch.arange(0, max_len).unsqueeze(1)`   |
-| 计算频率项$\frac{1}{10000^{2i/d}}$ | `div_term = torch.exp(...)` （对数变换避免数值溢出） |
-| 填充正弦项（偶数维度）             | `pe[:, 0::2] = torch.sin(position * div_term)`       |
-| 填充余弦项（奇数维度）             | `pe[:, 1::2] = torch.cos(position * div_term)`       |
-| 与输入相加                         | `return x + self.pe[:, :x.size(1)]`                  |
+| **公式步骤**                        | **代码实现**                                         |
+| ----------------------------------- | ---------------------------------------------------- |
+| 初始化位置矩阵 $PE$                 | `pe = torch.zeros(max_len, d_model)`                 |
+| 计算位置序列 $pos$                  | `position = torch.arange(0, max_len).unsqueeze(1)`   |
+| 计算频率项 $\frac{1}{10000^{2i/d}}$ | `div_term = torch.exp(...)` （对数变换避免数值溢出） |
+| 填充正弦项（偶数维度）              | `pe[:, 0::2] = torch.sin(position * div_term)`       |
+| 填充余弦项（奇数维度）              | `pe[:, 1::2] = torch.cos(position * div_term)`       |
+| 与输入相加                          | `return x + self.pe[:, :x.size(1)]`                  |
 
 ---
 
@@ -81,13 +84,17 @@ class PositionalEncoding(nn.Module):
 
 #### **5.1 相对位置感知能力**
 通过三角函数加法公式可推导相对位置关系：
-$$
+
+```math
 \begin{aligned}
 PE_{pos+\Delta} &= \sin\left(\omega_k (pos+\Delta)\right) \\
 &= \sin(\omega_k pos)\cos(\omega_k \Delta) + \cos(\omega_k pos)\sin(\omega_k \Delta)
 \end{aligned}
-$$
-其中$\omega_k = 1/10000^{2k/d}$，表明相对位置$\Delta$可通过线性变换表示。
+```
+
+
+
+其中 $\omega_k = 1/10000^{2k/d}$，表明相对位置 $\Delta$可通过线性变换表示。
 
 #### **5.2 可视化示例**
 ![位置编码热图](https://jalammar.github.io/images/t/transformer_positional_encoding_example.png)

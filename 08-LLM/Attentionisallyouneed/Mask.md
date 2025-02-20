@@ -33,15 +33,21 @@
 ### **3. 数学原理**
 #### **3.1 注意力分数计算**
 原始注意力分数：
-$$
+
+```math
 \text{Attention Scores} = \frac{QK^T}{\sqrt{d_k}}
-$$
+```
+
+
 
 #### **3.2 掩码应用**
 将掩码矩阵 $M$（掩码位置为`-inf`）与注意力分数相加：
-$$
+
+```math
 \text{Masked Scores} = \text{Attention Scores} + M
-$$
+```
+
+
 
 #### **3.3 Softmax归一化**
 经过掩码后的Softmax计算：
