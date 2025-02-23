@@ -8,7 +8,7 @@
 
 纠结了一阵子，要不要把Daily-DeepLearning改成Daily-LLM，想了想还是算了吧，反正现在都是基于deeplearning。
 
-### 《Attention is All you need》的发表
+### 2017年《Attention is All you need》的发表
 
 要说LLM，大家第一反应应该都是[《Attention is all you need》](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
@@ -20,7 +20,11 @@
 
 第三个是用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。[位置编码机制解析](08-LLM/Attentionisallyouneed/positionalencoding.md)
 
+PS：如果对编码不太了解，可以看看以前的编码方式，比如机器学习时期的[词袋模型TF-IDF](04-NLP/词袋模型-TFIDFmd) 或者深度学习时期的[词向量](03-Deep-Learning/Word2Vec.md)
+
 如果这三个核心点都理解了，我们可以开始看看整个**Transformer**的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列的特征，**Decoder**是生成输出序列。比如在翻译任务中，Encoder处理源语言，Decoder生成目标语言。（Encoder可以并行处理所有输入，Decoder和Lstm类似，每一步是依赖之前的输出的）[Transformer解析](08-LLM/Attentionisallyouneed/Transformer.md)
+
+PS：除了核心的创新外，里面还是用到了前馈神经网络、残差连接、层归一化这些以前的技术。
 
 以机器翻译为例
 
@@ -76,13 +80,35 @@
 
 完整的复现推荐这个[Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
-### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+### 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 论文戳这里：[*BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://arxiv.org/abs/1810.04805)
 
 Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。[Bert解析](08-LLM/Bert/核心解析.md)
 
+Bert的双向上下文建模改变了文本表示的学习方式，通过Transformer的编码器结构同时捕捉文本中每个词的左右两侧上下文信息，从而更全面地理解语言语义。
 
+输入表示上使用词嵌入（WordPiece） + 位置嵌入（Position） + 段落嵌入（Segment）
+
+```markdown
+整体模型:
+输入层 → Embedding → Transformer Encoder × L → 输出层
+```
+
+- 输入层：将文本转化成768维向量（BERT-base）
+- Encoder层数：BERT-base（L=12）、BERT-large（L=24）
+- 输出层：根据任务选择输出形式（如 `[CLS]` 向量用于分类）
+
+```markdown
+单层 Encoder 的详细计算流程：
+输入向量 → LayerNorm → 多头自注意力 → 残差连接 → LayerNorm → 前馈网络 → 残差连接 → 输出
+```
+
+
+
+### 2018年 GPT1：Generative Pre-trained Transformer
+
+### 2018年  ELMO：Embeddings from Language Models
 
 ### 早期的GPT系列（2018-2020）
 
