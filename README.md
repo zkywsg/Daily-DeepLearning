@@ -78,6 +78,8 @@ PS：除了核心的创新外，里面还是用到了前馈神经网络、残差
 
 完整的复现推荐这个[Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
+我们也可以使用BLEU数据集进行简单的复现[Transformer复现](08-LLM/Attentionisallyouneed/Transformer_code.md)
+
 ### 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 论文戳这里：[*BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://arxiv.org/abs/1810.04805)
@@ -102,7 +104,7 @@ Bert的双向上下文建模改变了文本表示的学习方式，通过Transfo
 输入向量 → LayerNorm → 多头自注意力 → 残差连接 → LayerNorm → 前馈网络 → 残差连接 → 输出
 ```
 
-
+我们可以使用BLEU数据集进行简单的复现[Bert复现](08-LLM/Bert/Bert_code.md)
 
 ### 2018年 GPT1：Generative Pre-trained Transformer
 
