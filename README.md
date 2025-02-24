@@ -116,7 +116,11 @@ Bert的双向上下文建模改变了文本表示的学习方式，通过Transfo
 
 ### 2018年 GPT1：Generative Pre-trained Transformer
 
-### 2018年  ELMO：Embeddings from Language Models
+### 2018年  ELMo：Embeddings from Language Models
+
+论文戳这里[ELMo:Embeddings from Language Models](https://arxiv.org/abs/1802.05365)
+
+[ELMo解析](08-LLM/ELMo/核心解析.md)
 
 ### 早期的GPT系列（2018-2020）
 
