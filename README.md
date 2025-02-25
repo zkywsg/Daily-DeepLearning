@@ -120,6 +120,8 @@ Bert的双向上下文建模改变了文本表示的学习方式，通过Transfo
 
 论文戳这里[ELMo:Embeddings from Language Models](https://arxiv.org/abs/1802.05365)
 
+ELMo这个工作主要还是对词向量的改进，从静态的词向量转变成动态词向量，从而提升各项NLP任务上的性能。虽然和GPT、BERT在同一年的工作，但其实应该放在这两项工作前面的，从马后炮的角度来说，主要用的还是双向LSTM，相较于Transformer这样支持并行计算的架构，再配合上MLM来捕捉双向上下文，现在看起来更像是上一代的产物了。但对比起word2vec、GloVe等静态词向量，还是不知道高到哪里去了。
+
 [ELMo解析](08-LLM/ELMo/核心解析.md)
 
 ### 早期的GPT系列（2018-2020）
