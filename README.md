@@ -20,9 +20,13 @@
 
 要说LLM，大家第一反应应该都是[《Attention is all you need》](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
+---
+
 **直接看文档**
 
 [《Attention is all you need》解析](08-LLM/Attentionisallyouneed/核心解析.md)
+
+---
 
 **到底创新的什么？**
 
@@ -34,11 +38,15 @@
 
 PS：如果对编码不太了解，可以看看以前的编码方式，比如机器学习时期的[词袋模型TF-IDF](04-NLP/词袋模型-TFIDFmd) 或者深度学习时期的[词向量](03-Deep-Learning/Word2Vec.md)
 
+---
+
 **Transformer接下来要出现好几年**
 
 如果这三个核心点都理解了，我们可以开始看看整个**Transformer**的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列的特征，**Decoder**是生成输出序列。比如在翻译任务中，Encoder处理源语言，Decoder生成目标语言。（Encoder可以并行处理所有输入，Decoder和Lstm类似，每一步是依赖之前的输出的）[Transformer解析](08-LLM/Attentionisallyouneed/Transformer.md)
 
 PS：除了核心的创新外，里面还是用到了前馈神经网络、残差连接、层归一化这些以前的技术。
+
+---
 
 **举个栗子**
 
@@ -76,6 +84,8 @@ PS：除了核心的创新外，里面还是用到了前馈神经网络、残差
 ![解码器内部结构](https://jalammar.github.io/images/t/transformer_decoding_1.gif)
 
 通过这个图，基本上能理解Transformer的90%了，有一个比较特殊的点是Decoder的掩码注意力机制。Decoder在生成目标序列的时候，是自回归的，也就是一个一个词生成的。比如在翻译的时候，先生成第一个词，然后用第一个词生成第二个词，依此类推。这时候在训练的时候，怎么确保解码器不会看到未来的信息呢？比如在预测第三个词的时候，模型不应该知道第三个词之后的正确答案，否则会导致信息泄漏，影响模型的泛化能力。
+
+---
 
 **到底什么是注意力机制**
 
