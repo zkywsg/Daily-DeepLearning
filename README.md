@@ -6,13 +6,9 @@
 
 ------------
 
-
-
 欢迎来到 **Daily-DearnLearning**，原本这是一个为了自己打造的**深度学习知识库**（⬇️滑到最下面或者看目录，可以看以前的和机器学习、深度学习相关的内容），涵盖[计算机基础课程](07-BaseClass/)、[Python快速入门](01-Python/)、[数据科学包的使用](05-Machine-Learning-Code/数据分析工具/)、[机器学习](02-Machine-Learning/)、[深度学习](03-Deep-Learning/)、[自然语言处理](04-NLP/)、[LLM](08-LLM/)等。
 
 ---
-
-
 
 ### 2017年《Attention is All you need》的发表
 
@@ -112,8 +108,6 @@ PS：除了核心的创新外，里面还是用到了前馈神经网络、残差
 
 ------
 
-
-
 ### 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 **出现的背景**
@@ -133,8 +127,6 @@ Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码
 1. 输入内容的表示方式：词嵌入（WordPiece） + 位置嵌入（Position） + 段落嵌入（Segment）
 
 ---
-
-
 
 **举个例子**
 
@@ -160,13 +152,9 @@ Bert的双向上下文建模改变了文本表示的学习方式，通过Transfo
 
 ---
 
-
-
 ### 2018年 GPT1：Generative Pre-trained Transformer
 
 ---
-
-
 
 ### 2018年  ELMo：Embeddings from Language Models
 
@@ -182,11 +170,9 @@ ELMo这个工作主要还是对词向量的改进，从静态的词向量转变�
 
 ---
 
-
-
 [ELMo解析](08-LLM/ELMo/核心解析.md)
 
-### 
+More....
 
 ---
 
