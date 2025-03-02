@@ -1,8 +1,8 @@
 # 🌟 **Daily-DeepLearning** 🌟  
 
-### 1. 不想看流水账可以拖到md最下方或者点开文件夹查看文档
+### 1. 可以拖到md最下方或者点开文件夹查看文档
 
-### 2. 以下链接均可点击，进入查看简洁的文档
+### 2. 以下链接均可点击，进入查看详细文档
 
 ------------
 
@@ -10,31 +10,31 @@
 
 欢迎来到 **Daily-DearnLearning**，原本这是一个为了自己打造的**深度学习知识库**（⬇️滑到最下面或者看目录，可以看以前的和机器学习、深度学习相关的内容），涵盖[计算机基础课程](07-BaseClass/)、[Python快速入门](01-Python/)、[数据科学包的使用](05-Machine-Learning-Code/数据分析工具/)、[机器学习](02-Machine-Learning/)、[深度学习](03-Deep-Learning/)、[自然语言处理](04-NLP/)、[LLM](08-LLM/)等。
 
-我在17年的时候就根据Google的《Attention is all you need》做了一些学习、复现，那会已经快毕业了，舍友问我：“你觉得NLP什么时候能成熟？”，我当时信誓旦旦的说：“至少得几十年吧。”，后来阴差阳错没有做算法的工作，跌跌撞撞进了体制内。2018年，Bert刚出现，当时还在想，怎么NLP也要学图像开始做大力出奇迹的事情了吗，再后来Elmo、GPT-2，再到chatGPT的效果出现了爆炸式的提升，我有点按耐不住了，人工智能的斯普特尼克时刻（Sputnik moment）真的要来了吗。打算从头和大家一起学习，回到这个令人兴奋的领域。（24年11、12月开始关注deepseek，结果25年的1月R1发布之后，在全球大火，这个奇点时刻似乎越来越近了）
+---
 
-纠结了一阵子，要不要把Daily-DeepLearning改成Daily-LLM，想了想还是算了吧，反正现在都是基于deeplearning。
+
 
 ### 2017年《Attention is All you need》的发表
 
 **出现的背景**
 
-要说LLM，大家第一反应应该都是[《Attention is all you need》](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
+要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。[《Attention is all you need》解析](08-LLM/Attentionisallyouneed/核心解析.md)
 
 ---
 
-**直接看文档**
+**直接看论文**
 
-[《Attention is all you need》解析](08-LLM/Attentionisallyouneed/核心解析.md)
+论文戳这里：[《Attention is all you need》](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)
 
 ---
 
 **到底创新的什么？**
 
-第一个是模型的主体结构不再是CNN、RNN的变种，用了用**self-Attention**为主的Transformer结构，所以这篇论文的标题才会说这是all you need嘛。这种方法解决了无法并行计算并且长距离捕捉予以的问题。[自注意力机制解析](08-LLM/Attentionisallyouneed/selfattention.md)
+1. 模型的主体结构不再是CNN、RNN的变种，用了用**self-Attention**为主的Transformer结构，所以这篇论文的标题才会说这是all you need嘛。这种方法解决了无法并行计算并且长距离捕捉予以的问题。[自注意力机制解析](08-LLM/Attentionisallyouneed/selfattention.md)
 
-第二个是多头注意力机制**Multi-Head Attention**，把输入映射到多个不同的空间，并行计算注意力，有点像CV的RGB、进阶版的词向量的感觉，捕捉不同维度的语义信息，比如语法、语意、上下文信息等等。[多头注意力机制解析](08-LLM/Attentionisallyouneed/multihead.md)
+2. 多头注意力机制**Multi-Head Attention**，把输入映射到多个不同的空间，并行计算注意力，有点像CV的RGB、进阶版的词向量的感觉，捕捉不同维度的语义信息，比如语法、语意、上下文信息等等。[多头注意力机制解析](08-LLM/Attentionisallyouneed/multihead.md)
 
-第三个是用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。[位置编码机制解析](08-LLM/Attentionisallyouneed/positionalencoding.md)
+3. 用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。[位置编码机制解析](08-LLM/Attentionisallyouneed/positionalencoding.md)
 
 PS：如果对编码不太了解，可以看看以前的编码方式，比如机器学习时期的[词袋模型TF-IDF](04-NLP/词袋模型-TFIDFmd) 或者深度学习时期的[词向量](03-Deep-Learning/Word2Vec.md)
 
@@ -48,7 +48,7 @@ PS：除了核心的创新外，里面还是用到了前馈神经网络、残差
 
 ---
 
-**举个栗子**
+**举个例子**
 
 以机器翻译为例
 
@@ -116,9 +116,27 @@ PS：除了核心的创新外，里面还是用到了前馈神经网络、残差
 
 ### 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
-论文戳这里：[*BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://arxiv.org/abs/1810.04805)
+**出现的背景**
 
 Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。[Bert解析](08-LLM/Bert/核心解析.md)
+
+---
+
+**直接看论文**
+
+论文戳这里：[*BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://arxiv.org/abs/1810.04805)
+
+---
+
+**到底创新了什么**
+
+1. 输入内容的表示方式：词嵌入（WordPiece） + 位置嵌入（Position） + 段落嵌入（Segment）
+
+---
+
+
+
+**举个例子**
 
 Bert的双向上下文建模改变了文本表示的学习方式，通过Transformer的编码器结构同时捕捉文本中每个词的左右两侧上下文信息，从而更全面地理解语言语义。
 
@@ -140,17 +158,35 @@ Bert的双向上下文建模改变了文本表示的学习方式，通过Transfo
 
 我们可以使用BLEU数据集进行简单的复现[Bert复现](08-LLM/Bert/Bert_code.md)
 
+---
+
+
+
 ### 2018年 GPT1：Generative Pre-trained Transformer
+
+---
+
+
 
 ### 2018年  ELMo：Embeddings from Language Models
 
-论文戳这里[ELMo:Embeddings from Language Models](https://arxiv.org/abs/1802.05365)
+**出现的背景**
 
 ELMo这个工作主要还是对词向量的改进，从静态的词向量转变成动态词向量，从而提升各项NLP任务上的性能。虽然和GPT、BERT在同一年的工作，但其实应该放在这两项工作前面的，从马后炮的角度来说，主要用的还是双向LSTM，相较于Transformer这样支持并行计算的架构，再配合上MLM来捕捉双向上下文，现在看起来更像是上一代的产物了。但对比起word2vec、GloVe等静态词向量，还是不知道高到哪里去了。
 
+---
+
+**直接看论文**
+
+论文戳这里[ELMo:Embeddings from Language Models](https://arxiv.org/abs/1802.05365)
+
+---
+
+
+
 [ELMo解析](08-LLM/ELMo/核心解析.md)
 
-### 早期的GPT系列（2018-2020）
+### 
 
 ---
 
