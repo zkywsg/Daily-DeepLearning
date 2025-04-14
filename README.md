@@ -6,17 +6,7 @@
 
 **出现的背景**
 
-要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
-
-**创新点**
-
-1. 模型的主体结构不再是CNN、RNN的变种，用了用**self-Attention**为主的Transformer结构，所以这篇论文的标题才会说这是all you need嘛。这种方法解决了无法并行计算并且长距离捕捉予以的问题。[自注意力机制解析](08-LLM/Attentionisallyouneed/selfattention.md)
-
-2. 多头注意力机制**Multi-Head Attention**，把输入映射到多个不同的空间，并行计算注意力，有点像CV的RGB、进阶版的词向量的感觉，捕捉不同维度的语义信息，比如语法、语意、上下文信息等等。[多头注意力机制解析](08-LLM/Attentionisallyouneed/multihead.md)
-
-3. 用了位置编码Positional Encoding，这个点很巧妙，因为以前RNN、Lstm输入的时候是顺序输入的，虽然慢，但是正是这种序列化的表示。[位置编码机制解析](08-LLM/Attentionisallyouneed/positionalencoding.md)
-
-PS：如果对编码不太了解，可以看看以前的编码方式，比如机器学习时期的[词袋模型TF-IDF](04-NLP/词袋模型-TFIDFmd) 或者深度学习时期的[词向量](03-Deep-Learning/Word2Vec.md)
+在《Attention is all you need》之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
 [核心解析](08-LLM/Attentionisallyouneed/核心解析.md) | [论文链接](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)  | [简单例子](08-LLM/Attentionisallyouneed/example.md) | [自注意力机制](08-LLM/Attentionisallyouneed/selfattention.md) | [多头注意力](08-LLM/Attentionisallyouneed/multihead.md) | [位置编码](08-LLM/Attentionisallyouneed/positionalencoding.md) | [Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html) | [Transformer复现](08-LLM/Attentionisallyouneed/Transformer_code.md)
 
@@ -24,11 +14,7 @@ PS：如果对编码不太了解，可以看看以前的编码方式，比如机
 
 **出现的背景**
 
-Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。
-
-**创新点**
-
-1. 输入内容的表示方式：词嵌入（WordPiece） + 位置嵌入（Position） + 段落嵌入（Segment）
+Bert比较特殊的地方在于采用了双向上下文建模，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。
 
 [Bert解析](08-LLM/Bert/核心解析.md) | [论文链接](https://arxiv.org/abs/1810.04805) | [Bert复现](08-LLM/Bert/Bert_code.md)
 
