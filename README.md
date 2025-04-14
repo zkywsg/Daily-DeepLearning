@@ -1,8 +1,6 @@
 # 🌟 **Daily-DeepLearning** 🌟  
 
-### 1. 可以拖到md最下方或者点开文件夹查看文档
-
-### 2. 以下链接均可点击，进入查看详细文档
+### 
 
 ------------
 
@@ -10,21 +8,15 @@
 
 ---
 
-### 2017年《Attention is All you need》的发表
+### 2017年-Attention is All you need
 
 **出现的背景**
 
-要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文了吧。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，多少人入门都是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。[《Attention is all you need》解析](08-LLM/Attentionisallyouneed/核心解析.md)
+要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
----
 
-**直接看论文**
 
-论文戳这里：[《Attention is all you need》](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)
-
----
-
-**到底创新的什么？**
+**创新点**
 
 1. 模型的主体结构不再是CNN、RNN的变种，用了用**self-Attention**为主的Transformer结构，所以这篇论文的标题才会说这是all you need嘛。这种方法解决了无法并行计算并且长距离捕捉予以的问题。[自注意力机制解析](08-LLM/Attentionisallyouneed/selfattention.md)
 
@@ -36,75 +28,7 @@ PS：如果对编码不太了解，可以看看以前的编码方式，比如机
 
 ---
 
-**Transformer接下来要出现好几年**
-
-如果这三个核心点都理解了，我们可以开始看看整个**Transformer**的结构。如果你以前习惯了RNN/LSTM的结构，对于这种全新的架构会有点懵逼。其实整个结构很干净，没有什么花里胡哨的。用我的理解方式就是，首先有两个部分**Encoder**和**Decoder**。**Encoder**是用来提取输入序列的特征，**Decoder**是生成输出序列。比如在翻译任务中，Encoder处理源语言，Decoder生成目标语言。（Encoder可以并行处理所有输入，Decoder和Lstm类似，每一步是依赖之前的输出的）[Transformer解析](08-LLM/Attentionisallyouneed/Transformer.md)
-
-PS：除了核心的创新外，里面还是用到了前馈神经网络、残差连接、层归一化这些以前的技术。
-
----
-
-**举个例子**
-
-以机器翻译为例
-
-```python
-# Encoder
-输入序列：["我", "爱", "自然语言处理"]
-↓
-词嵌入 + 位置编码 → [向量1, 向量2, 向量3]
-↓
-经过6个编码器层的处理：
-   每个层包含：
-   1. 多头自注意力（关注整个输入序列）
-   2. 前馈神经网络（特征变换）
-   3. 残差连接 + 层归一化
-↓
-输出上下文表示：包含"我-爱-处理"关系的综合特征矩阵
-
-# Decoder
-已生成部分：["I"]
-↓
-输入：["<start>", "I"]（起始符 + 已生成词）
-↓
-经过6个解码器层的处理：
-   每个层包含：
-   1. 掩码多头注意力（仅关注已生成部分）
-   2. 编码-解码注意力（连接编码器输出）
-   3. 前馈神经网络
-   4. 残差连接 + 层归一化
-↓ 
-预测下一个词："love"
-```
-
-![解码器内部结构](https://jalammar.github.io/images/t/transformer_decoding_1.gif)
-
-通过这个图，基本上能理解Transformer的90%了，有一个比较特殊的点是Decoder的掩码注意力机制。Decoder在生成目标序列的时候，是自回归的，也就是一个一个词生成的。比如在翻译的时候，先生成第一个词，然后用第一个词生成第二个词，依此类推。这时候在训练的时候，怎么确保解码器不会看到未来的信息呢？比如在预测第三个词的时候，模型不应该知道第三个词之后的正确答案，否则会导致信息泄漏，影响模型的泛化能力。
-
----
-
-**到底什么是注意力机制**
-
-这时候就需要掩码注意力机制了。掩码的作用应该是掩盖掉当前位置之后的位置，使得在计算注意力权重的时候，后面的位置不会被考虑到。具体来说，在自注意力计算的时候，生成一个上三角矩阵，对角线以上的元素设置为负无穷或者一个很小的数，这样在softmax之后，这些位置的权重就会接近零。
-
-![掩码注意力权重](https://jalammar.github.io/images/t/transformer_self-attention_visualization.png)
-
-比如，对于一个长度为4的序列，掩码矩阵可能如下：
-
-```python
-[[0, -inf, -inf, -inf],
- [0, 0, -inf, -inf],
- [0, 0, 0, -inf],
- [0, 0, 0, 0]]  # 0表示保留，-inf表示掩盖
-```
-
-当计算注意力时，每个位置只能看到自己和前面的位置。例如，第二个位置只能关注第一个和第二个位置，第三个位置可以关注前三个，依此类推。[掩码解析](08-LLM/Attentionisallyouneed/Mask.md)
-
-自从Transformer架构提出后，在NLP领域开始涌现出了一系列有意思的工作。
-
-完整的复现推荐这个[Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
-
-我们也可以使用BLEU数据集进行简单的复现[Transformer复现](08-LLM/Attentionisallyouneed/Transformer_code.md)
+[核心解析](08-LLM/Attentionisallyouneed/核心解析.md) | [论文链接](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)  | [简单例子](08-LLM/Attentionisallyouneed/example.md) | [自注意力机制](08-LLM/Attentionisallyouneed/selfattention.md) | [多头注意力](08-LLM/Attentionisallyouneed/multihead.md) | [位置编码](08-LLM/Attentionisallyouneed/positionalencoding.md) | [Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html) | [Transformer复现](08-LLM/Attentionisallyouneed/Transformer_code.md)
 
 ------
 
