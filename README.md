@@ -62,102 +62,50 @@ More....
 ---
 
 ### 🐍 **Python 快速入门**  
-**Day01**: [变量、字符串、数字和运算符](01-Python/Day01.md) | **Day02**: [列表、元组](01-Python/Day02.md) | **Day03**: [字典、集合](01-Python/Day03.md) | **Day04**: [条件语句、循环](01-Python/Day04.md) | **Day05**: [函数的定义与调用](01-Python/Day05.md) | **Day06**: [迭代、生成器、迭代器](01-Python/Day06.md) | **Day07**: [高阶函数、装饰器](01-Python/Day07.md) | **Day08**: [面向对象编程](01-Python/Day08.md) | **Day09**: [类的高级特性](01-Python/Day09.md) | **Day10**: [错误处理与调试](01-Python/Day10.md) | **Day11**: [文件操作](01-Python/Day11.md) | **Day12**: [多线程与多进程](01-Python/Day12.md) | **Day13**: [日期时间、集合、结构体](01-Python/Day13.md) | **Day14**: [协程与异步编程](01-Python/Day14.md) | **Day15**: [综合实践](01-Python/Day15.md)  
+[变量、字符串、数字和运算符](01-Python/Day01.md) |  [列表、元组](01-Python/Day02.md) |  [字典、集合](01-Python/Day03.md) |  [条件语句、循环](01-Python/Day04.md) | [函数的定义与调用](01-Python/Day05.md) | [迭代、生成器、迭代器](01-Python/Day06.md) | [高阶函数、装饰器](01-Python/Day07.md) | [面向对象编程](01-Python/Day08.md) | [类的高级特性](01-Python/Day09.md) | [错误处理与调试](01-Python/Day10.md) | [文件操作](01-Python/Day11.md) | [多线程与多进程](01-Python/Day12.md) | [日期时间、集合、结构体](01-Python/Day13.md) | [协程与异步编程](01-Python/Day14.md) | [综合实践](01-Python/Day15.md)  
 
 ---
 
 ### 📊 **数据科学包的使用**  
 **NumPy**  
-- [创建 ndarray](05-Machine-Learning-Code/数据分析工具/Numpy/创建ndarray.md)  
-- [数据类型和运算](05-Machine-Learning-Code/数据分析工具/Numpy/数据类型和运算.md)  
-- [索引和切片](05-Machine-Learning-Code/数据分析工具/Numpy/索引和切片.md)  
-- [矩阵操作](05-Machine-Learning-Code/数据分析工具/Numpy/矩阵操作.md)  
+
+[创建 ndarray](05-Machine-Learning-Code/数据分析工具/Numpy/创建ndarray.md) | [数据类型和运算](05-Machine-Learning-Code/数据分析工具/Numpy/数据类型和运算.md) | [索引和切片](05-Machine-Learning-Code/数据分析工具/Numpy/索引和切片.md) | [矩阵操作](05-Machine-Learning-Code/数据分析工具/Numpy/矩阵操作.md)  
 
 **Pandas**  
-- [加载数据](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb)  
-- [行列选择](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb)  
-- [索引操作](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb)  
-- [数据过滤](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb)  
-- [更新行列](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb)  
-- [数据排序](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb)  
-- [数据聚合](05-Machine-Learning-Code/数据分析工具/Pandas/8_Grouping_Aggregating.ipynb)  
-- [数据清洗](05-Machine-Learning-Code/数据分析工具/Pandas/9_Cleaning_Data.ipynb)  
-- [时间数据处理](05-Machine-Learning-Code/数据分析工具/Pandas/10_WorkingWithDatesAndTimeSertesData.ipynb)  
+
+[加载数据](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb) | [行列选择](05-Machine-Learning-Code/数据分析工具/Pandas/2_Select_row_and_columns.ipynb) | [索引操作](05-Machine-Learning-Code/数据分析工具/Pandas/3_Set_reset_use_indexes.ipynb) | [数据过滤](05-Machine-Learning-Code/数据分析工具/Pandas/4_Filtering.ipynb) | [更新行列](05-Machine-Learning-Code/数据分析工具/Pandas/5_update_rows_columns.ipynb) | [数据排序](05-Machine-Learning-Code/数据分析工具/Pandas/7_sort_data.ipynb) | [数据聚合](05-Machine-Learning-Code/数据分析工具/Pandas/8_Grouping_Aggregating.ipynb) | [数据清洗](05-Machine-Learning-Code/数据分析工具/Pandas/9_Cleaning_Data.ipynb) | [时间数据处理](05-Machine-Learning-Code/数据分析工具/Pandas/10_WorkingWithDatesAndTimeSertesData.ipynb)  
 
 **Matplotlib**  
-- [直线图](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)  
-- [柱状图](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb)  
-- [饼状图](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb)  
-- [堆叠图](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb)  
-- [填充图](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb)  
-- [直方图](05-Machine-Learning-Code/数据分析工具/Matplotlib/6_histograms.ipynb)  
-- [散点图](05-Machine-Learning-Code/数据分析工具/Matplotlib/7_Scatter.ipynb)  
-- [时序图](05-Machine-Learning-Code/数据分析工具/Matplotlib/8_Time_Series_Data.ipynb)  
-- [子图](05-Machine-Learning-Code/数据分析工具/Matplotlib/10_subplot.ipynb)  
+
+[直线图](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb) | [柱状图](05-Machine-Learning-Code/数据分析工具/Matplotlib/2_Bar_charts.ipynb) | [饼状图](05-Machine-Learning-Code/数据分析工具/Matplotlib/3_Pie.ipynb) | [堆叠图](05-Machine-Learning-Code/数据分析工具/Matplotlib/4_stack.ipynb) | [填充图](05-Machine-Learning-Code/数据分析工具/Matplotlib/5_Line_Filling_Area.ipynb) | [直方图](05-Machine-Learning-Code/数据分析工具/Matplotlib/6_histograms.ipynb) | [散点图](05-Machine-Learning-Code/数据分析工具/Matplotlib/7_Scatter.ipynb) | [时序图](05-Machine-Learning-Code/数据分析工具/Matplotlib/8_Time_Series_Data.ipynb) | [子图](05-Machine-Learning-Code/数据分析工具/Matplotlib/10_subplot.ipynb)  
 
 ---
 
 ### 🤖 **机器学习理论与实战**  
 **理论**  
-- [逻辑回归](02-Machine-Learning/逻辑回归.md)  
-- [EM 算法](02-Machine-Learning/EM算法.md)  
-- [集成学习](02-Machine-Learning/集成学习入门.md)  
-- [随机森林与 GBDT](02-Machine-Learning/随机森林和GBDT.md)  
-- [ID3/C4.5 算法](02-Machine-Learning/ID3和C4.5算法.md)  
-- [K-means](02-Machine-Learning/K-means.md)  
-- [K 最近邻](02-Machine-Learning/K最近邻.md)  
-- [贝叶斯](02-Machine-Learning/贝叶斯.md)  
-- [XGBoost/LightGBM](02-Machine-Learning/XgBoost和LightGBM.md)  
-- [Gradient Boosting](02-Machine-Learning/Gradient_Boosting.md)  
-- [Boosting Tree](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw)  
-- [回归树](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ)  
-- [XGBoost](02-Machine-Learning/XgBoost.md)  
-- [GBDT 分类](02-Machine-Learning/GBDT分类.md)  
-- [GBDT 回归](02-Machine-Learning/GBDT回归.md)  
-- [LightGBM](02-Machine-Learning/LightGBM.md)  
-- [CatBoost](02-Machine-Learning/CatBoost.md)  
 
-**实战**  
-- **NumPy 实战**：[创建 ndarray](05-Machine-Learning-Code/数据分析工具/Numpy/创建ndarray.md)  
-- **Pandas 实战**：[加载数据](05-Machine-Learning-Code/数据分析工具/Pandas/1_Loading.ipynb)  
-- **Matplotlib 实战**：[直线图](05-Machine-Learning-Code/数据分析工具/Matplotlib/1_creating_and_customizing_plots.ipynb)  
+[逻辑回归](02-Machine-Learning/逻辑回归.md) | [EM 算法](02-Machine-Learning/EM算法.md) | [集成学习](02-Machine-Learning/集成学习入门.md) | [随机森林与 GBDT](02-Machine-Learning/随机森林和GBDT.md) | [ID3/C4.5 算法](02-Machine-Learning/ID3和C4.5算法.md) | [K-means](02-Machine-Learning/K-means.md) | [K 最近邻](02-Machine-Learning/K最近邻.md) | [贝叶斯](02-Machine-Learning/贝叶斯.md) | [XGBoost/LightGBM](02-Machine-Learning/XgBoost和LightGBM.md) | [Gradient Boosting](02-Machine-Learning/Gradient_Boosting.md) | [Boosting Tree](https://mp.weixin.qq.com/s/Cdi0CcWDLgS6Kk7Kx71Vaw) | [回归树](https://mp.weixin.qq.com/s/XiTH-8FY5Aw-p_1Ifhx4oQ) | [XGBoost](02-Machine-Learning/XgBoost.md) | [GBDT 分类](02-Machine-Learning/GBDT分类.md) | [GBDT 回归](02-Machine-Learning/GBDT回归.md) | [LightGBM](02-Machine-Learning/LightGBM.md) | [CatBoost](02-Machine-Learning/CatBoost.md)  
 
 ---
 
 ### 🏊‍♀️ **深度学习理论与实战**  
 **理论**  
-- [Word2Vec](03-Deep-Learning/Word2Vec.md)  
-- [BatchNorm](03-Deep-Learning/BatchNorm.md)  
-- [Dropout](03-Deep-Learning/Dropout.md)  
-- [CNN](03-Deep-Learning/CNN.md)  
-- [RNN](03-Deep-Learning/RNN.md)  
-- [LSTM](03-Deep-Learning/LSTM.md)  
-- [Attention](03-Deep-Learning/Attention.md)  
-- [ELMo](03-Deep-Learning/ELMo.md)  
-- [Transformer](03-Deep-Learning/Transformer.md)  
-- [BERT](03-Deep-Learning/BERT.md)  
-- [ALBERT](03-Deep-Learning/ALBERT.md)  
-- [XLNet](03-Deep-Learning/XLNet.md)  
+
+[Word2Vec](03-Deep-Learning/Word2Vec.md) | [BatchNorm](03-Deep-Learning/BatchNorm.md) | [Dropout](03-Deep-Learning/Dropout.md) | [CNN](03-Deep-Learning/CNN.md) | [RNN](03-Deep-Learning/RNN.md) | [LSTM](03-Deep-Learning/LSTM.md) | [Attention](03-Deep-Learning/Attention.md) | [ELMo](03-Deep-Learning/ELMo.md) | [Transformer](03-Deep-Learning/Transformer.md) | [BERT](03-Deep-Learning/BERT.md) | [ALBERT](03-Deep-Learning/ALBERT.md) | [XLNet](03-Deep-Learning/XLNet.md)  
 
 **实战**  
+
 - **TensorFlow**  
-  - [Hello World](06-Deep-Learning-Code/Tensorflow/Helloworld.md)  
-  - [线性回归](06-Deep-Learning-Code/Tensorflow/linear_regression.md)  
-  - [逻辑回归](06-Deep-Learning-Code/Tensorflow/logistic_regression.md)  
-  - [基本图像分类](06-Deep-Learning-Code/Tensorflow/基本图像分类.ipynb)  
+  
+  [Hello World](06-Deep-Learning-Code/Tensorflow/Helloworld.md) | [线性回归](06-Deep-Learning-Code/Tensorflow/linear_regression.md) | [逻辑回归](06-Deep-Learning-Code/Tensorflow/logistic_regression.md) | [基本图像分类](06-Deep-Learning-Code/Tensorflow/基本图像分类.ipynb)  
 - **PyTorch**  
-  - [入门](06-Deep-Learning-Code/pytorch/gettingstart.md)  
-  - [自动求导](06-Deep-Learning-Code/pytorch/autograd.ipynb)  
-  - [神经网络](06-Deep-Learning-Code/pytorch/NeuralNetworks.ipynb)  
+  
+  [入门](06-Deep-Learning-Code/pytorch/gettingstart.md) | [自动求导](06-Deep-Learning-Code/pytorch/autograd.ipynb) | [神经网络](06-Deep-Learning-Code/pytorch/NeuralNetworks.ipynb)  
 
 ---
 
 ### 🀄 **NLP 相关**  
-- [Word2Vec](03-Deep-Learning/Word2Vec.md)  
-- [LSTM](03-Deep-Learning/LSTM.md)  
-- [ELMo](03-Deep-Learning/ELMo.md)  
-- [ALBERT](03-Deep-Learning/ALBERT.md)  
-- [XLNet](03-Deep-Learning/XLNet.md)  
+[Word2Vec](03-Deep-Learning/Word2Vec.md) | [LSTM](03-Deep-Learning/LSTM.md) | [ELMo](03-Deep-Learning/ELMo.md) | [ALBERT](03-Deep-Learning/ALBERT.md) | [XLNet](03-Deep-Learning/XLNet.md)  
 
 ---
 
