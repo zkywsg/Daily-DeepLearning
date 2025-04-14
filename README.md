@@ -1,20 +1,12 @@
 # 🌟 **Daily-DeepLearning** 🌟  
 
-### 
+欢迎来到 **Daily-DearnLearning**，涵盖[计算机基础课程](07-BaseClass/)、[Python快速入门](01-Python/)、[数据科学包的使用](05-Machine-Learning-Code/数据分析工具/)、[机器学习](02-Machine-Learning/)、[深度学习](03-Deep-Learning/)、[自然语言处理](04-NLP/)、[LLM](08-LLM/)等。
 
-------------
-
-欢迎来到 **Daily-DearnLearning**，原本这是一个为了自己打造的**深度学习知识库**（⬇️滑到最下面或者看目录，可以看以前的和机器学习、深度学习相关的内容），涵盖[计算机基础课程](07-BaseClass/)、[Python快速入门](01-Python/)、[数据科学包的使用](05-Machine-Learning-Code/数据分析工具/)、[机器学习](02-Machine-Learning/)、[深度学习](03-Deep-Learning/)、[自然语言处理](04-NLP/)、[LLM](08-LLM/)等。
-
----
-
-### 2017年-Attention is All you need
+## 2017年：Attention is All you need
 
 **出现的背景**
 
 要说LLM，大家第一反应应该都是《Attention is all you need》这篇论文。在那之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
-
-
 
 **创新点**
 
@@ -26,92 +18,38 @@
 
 PS：如果对编码不太了解，可以看看以前的编码方式，比如机器学习时期的[词袋模型TF-IDF](04-NLP/词袋模型-TFIDFmd) 或者深度学习时期的[词向量](03-Deep-Learning/Word2Vec.md)
 
----
-
 [核心解析](08-LLM/Attentionisallyouneed/核心解析.md) | [论文链接](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)  | [简单例子](08-LLM/Attentionisallyouneed/example.md) | [自注意力机制](08-LLM/Attentionisallyouneed/selfattention.md) | [多头注意力](08-LLM/Attentionisallyouneed/multihead.md) | [位置编码](08-LLM/Attentionisallyouneed/positionalencoding.md) | [Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html) | [Transformer复现](08-LLM/Attentionisallyouneed/Transformer_code.md)
 
-------
-
-### 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+## 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 **出现的背景**
 
-Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。[Bert解析](08-LLM/Bert/核心解析.md)
+Bert比较特殊的地方在于采用了**双向上下文建模**，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。
 
----
-
-**直接看论文**
-
-论文戳这里：[*BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*](https://arxiv.org/abs/1810.04805)
-
----
-
-**到底创新了什么**
+**创新点**
 
 1. 输入内容的表示方式：词嵌入（WordPiece） + 位置嵌入（Position） + 段落嵌入（Segment）
 
----
+[Bert解析](08-LLM/Bert/核心解析.md) | [论文链接](https://arxiv.org/abs/1810.04805) | [Bert复现](08-LLM/Bert/Bert_code.md)
 
-**举个例子**
+## 2018年 GPT1：Generative Pre-trained Transformer
 
-Bert的双向上下文建模改变了文本表示的学习方式，通过Transformer的编码器结构同时捕捉文本中每个词的左右两侧上下文信息，从而更全面地理解语言语义。
-
-输入表示上使用词嵌入（WordPiece） + 位置嵌入（Position） + 段落嵌入（Segment）
-
-```markdown
-整体模型:
-输入层 → Embedding → Transformer Encoder × L → 输出层
-```
-
-- 输入层：将文本转化成768维向量（BERT-base）
-- Encoder层数：BERT-base（L=12）、BERT-large（L=24）
-- 输出层：根据任务选择输出形式（如 `[CLS]` 向量用于分类）
-
-```markdown
-单层 Encoder 的详细计算流程：
-输入向量 → LayerNorm → 多头自注意力 → 残差连接 → LayerNorm → 前馈网络 → 残差连接 → 输出
-```
-
-我们可以使用BLEU数据集进行简单的复现[Bert复现](08-LLM/Bert/Bert_code.md)
-
----
-
-### 2018年 GPT1：Generative Pre-trained Transformer
-
----
-
-### 2018年  ELMo：Embeddings from Language Models
+## 2018年  ELMo：Embeddings from Language Models
 
 **出现的背景**
 
-ELMo这个工作主要还是对词向量的改进，从静态的词向量转变成动态词向量，从而提升各项NLP任务上的性能。虽然和GPT、BERT在同一年的工作，但其实应该放在这两项工作前面的，从马后炮的角度来说，主要用的还是双向LSTM，相较于Transformer这样支持并行计算的架构，再配合上MLM来捕捉双向上下文，现在看起来更像是上一代的产物了。但对比起word2vec、GloVe等静态词向量，还是不知道高到哪里去了。[ELMo解析](08-LLM/ELMo/核心解析.md)
+ELMo这个工作主要还是对词向量的改进，从静态的词向量转变成动态词向量，从而提升各项NLP任务上的性能。虽然和GPT、BERT在同一年的工作，但其实应该放在这两项工作前面的，从马后炮的角度来说，主要用的还是双向LSTM，相较于Transformer这样支持并行计算的架构，再配合上MLM来捕捉双向上下文。
 
----
-
-**直接看论文**
-
-论文戳这里[ELMo:Embeddings from Language Models](https://arxiv.org/abs/1802.05365)
-
----
-
-**到底创新了什么**
+[ELMo解析](08-LLM/ELMo/核心解析.md) | [论文链接](https://arxiv.org/abs/1802.05365)
 
 More....
 
 ---
 
-## 🌐 **目录**  
-
 ### 🖥️ **计算机基础课程**  
 **数据结构**  
 
-- [基本概念和算法评价](07-BaseClass/Ds/01基本概念和算法评价.md)  
-- [线性表](07-BaseClass/Ds/02线性表.md)  
-- [栈和队列](07-BaseClass/Ds/03栈和队列.md)  
-- [树和二叉树](07-BaseClass/Ds/04树和二叉树.md)  
-- [图](07-BaseClass/Ds/05图.md)  
-- [查找](07-BaseClass/Ds/06查找.md)  
-- [排序](07-BaseClass/Ds/07排序.md)  
+[基本概念和算法评价](07-BaseClass/Ds/01基本概念和算法评价.md) | [线性表](07-BaseClass/Ds/02线性表.md) | [栈和队列](07-BaseClass/Ds/03栈和队列.md) | [树和二叉树](07-BaseClass/Ds/04树和二叉树.md) | [图](07-BaseClass/Ds/05图.md) | [查找](07-BaseClass/Ds/06查找.md) | [排序](07-BaseClass/Ds/07排序.md)  
 
 **操作系统**  
 - [操作系统的基本概念](07-BaseClass/Os/01操作系统的基本概念.md)  
