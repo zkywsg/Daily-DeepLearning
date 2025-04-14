@@ -20,6 +20,10 @@ Bert比较特殊的地方在于采用了双向上下文建模，通过掩码语�
 
 ## 2018年 GPT1：Generative Pre-trained Transformer
 
+出现的背景
+
+在NLP任务依赖定制化模型、传统单向语言模型（如LSTM）难以建模长距离上下文的背景下，GPT-1首次将Transformer解码器架构与无监督预训练结合，提出“生成式预训练+微调”范式。通过自回归预训练（预测下一个词）学习通用文本表示，仅需简单微调即可适配分类、推理等任务，在12项NLP任务中9项达到SOTA，验证了大模型规模化训练的潜力，为后续GPT系列奠定了基础。
+
 ## 2018年  ELMo：Embeddings from Language Models
 
 **出现的背景**
