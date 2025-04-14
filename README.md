@@ -62,21 +62,7 @@ More....
 ---
 
 ### 🐍 **Python 快速入门**  
-**Day01**: [变量、字符串、数字和运算符](01-Python/Day01.md)  
-**Day02**: [列表、元组](01-Python/Day02.md)  
-**Day03**: [字典、集合](01-Python/Day03.md)  
-**Day04**: [条件语句、循环](01-Python/Day04.md)  
-**Day05**: [函数的定义与调用](01-Python/Day05.md)  
-**Day06**: [迭代、生成器、迭代器](01-Python/Day06.md)  
-**Day07**: [高阶函数、装饰器](01-Python/Day07.md)  
-**Day08**: [面向对象编程](01-Python/Day08.md)  
-**Day09**: [类的高级特性](01-Python/Day09.md)  
-**Day10**: [错误处理与调试](01-Python/Day10.md)  
-**Day11**: [文件操作](01-Python/Day11.md)  
-**Day12**: [多线程与多进程](01-Python/Day12.md)  
-**Day13**: [日期时间、集合、结构体](01-Python/Day13.md)  
-**Day14**: [协程与异步编程](01-Python/Day14.md)  
-**Day15**: [综合实践](01-Python/Day15.md)  
+**Day01**: [变量、字符串、数字和运算符](01-Python/Day01.md) | **Day02**: [列表、元组](01-Python/Day02.md) | **Day03**: [字典、集合](01-Python/Day03.md) | **Day04**: [条件语句、循环](01-Python/Day04.md) | **Day05**: [函数的定义与调用](01-Python/Day05.md) | **Day06**: [迭代、生成器、迭代器](01-Python/Day06.md) | **Day07**: [高阶函数、装饰器](01-Python/Day07.md) | **Day08**: [面向对象编程](01-Python/Day08.md) | **Day09**: [类的高级特性](01-Python/Day09.md) | **Day10**: [错误处理与调试](01-Python/Day10.md) | **Day11**: [文件操作](01-Python/Day11.md) | **Day12**: [多线程与多进程](01-Python/Day12.md) | **Day13**: [日期时间、集合、结构体](01-Python/Day13.md) | **Day14**: [协程与异步编程](01-Python/Day14.md) | **Day15**: [综合实践](01-Python/Day15.md)  
 
 ---
 
