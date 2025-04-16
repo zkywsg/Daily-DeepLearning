@@ -4,15 +4,15 @@
 
 ## 2017年：Attention is All you need
 
-**出现的背景**
+**Background**
 
-在《Attention is all you need》之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，那时像CNN刚刚开始流行起来，是用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
+在《Attention is all you need》之前，因为李飞飞教授推动的ImageNet数据集、GPU算力的提升，像CNN刚刚开始流行起来，如用Tensoflow或者Theano写一个手写数字识别。后来开始有人在NLP领域，用word2vec和LSTM的组合，在很多领域里做到SOTA的效果。后来就是2017年，由Google团队提出的这篇里程碑式的论文。
 
 [核心解析](08-LLM/Attentionisallyouneed/核心解析.md) | [论文链接](08-LLM/Attentionisallyouneed/attentionisallyouneed.pdf)  | [简单例子](08-LLM/Attentionisallyouneed/example.md) | [自注意力机制](08-LLM/Attentionisallyouneed/selfattention.md) | [多头注意力](08-LLM/Attentionisallyouneed/multihead.md) | [位置编码](08-LLM/Attentionisallyouneed/positionalencoding.md) | [Harvard NLP PyTorch实现Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html) | [Transformer复现](08-LLM/Attentionisallyouneed/Transformer_code.md)
 
 ## 2018年 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
-**出现的背景**
+**Background**
 
 Bert比较特殊的地方在于采用了双向上下文建模，通过掩码语言模型（Masked language Model），同时利用左右两侧上下文，解决传统模型中的单向性问题。还有很重要的一点，从Bert看来是，形成了“预训练+微调”的新范式，统一了多种NLP任务的框架，仅需在预训练模型基础上添加简单任务头即可适配下游任务。当时在11项NLP任务上刷新SOTA，开启了大规模预训练模型（Pre-trained Language Model, PLM）时代。
 
@@ -20,13 +20,13 @@ Bert比较特殊的地方在于采用了双向上下文建模，通过掩码语�
 
 ## 2018年 GPT1：Generative Pre-trained Transformer
 
-出现的背景
+**Background**
 
 在NLP任务依赖定制化模型、传统单向语言模型（如LSTM）难以建模长距离上下文的背景下，GPT-1首次将Transformer解码器架构与无监督预训练结合，提出“生成式预训练+微调”范式。通过自回归预训练（预测下一个词）学习通用文本表示，仅需简单微调即可适配分类、推理等任务，在12项NLP任务中9项达到SOTA，验证了大模型规模化训练的潜力，为后续GPT系列奠定了基础。
 
 ## 2018年  ELMo：Embeddings from Language Models
 
-**出现的背景**
+**Background**
 
 ELMo这个工作主要还是对词向量的改进，从静态的词向量转变成动态词向量，从而提升各项NLP任务上的性能。虽然和GPT、BERT在同一年的工作，但其实应该放在这两项工作前面的，从马后炮的角度来说，主要用的还是双向LSTM，相较于Transformer这样支持并行计算的架构，再配合上MLM来捕捉双向上下文。
 
